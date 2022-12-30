@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css');
+
+:root {
+  --modal-duration: 1s;
+  --primary-color: #87CEFA;
+  --secondary-color: #9370DB;
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+/* Navnar */
+
+nav {
+  background-color: #6d88ff;
+  border-right: 2px solid rgba(200, 200, 200, 0.1);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  z-index: 100;
+  transform: translateX(0);
+  padding: left 50px;
+}
+
+nav .logo {
+  padding: 30px 0;
+  text-align: center;
+}
+
+nav .logo img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+  
+}
+
+nav ul li {
+  border-bottom: 2px solid rgba(200, 200, 200, 0.1);
+  padding: 20px;
+  margin: 0;
+  font-size: 15px;
+}
+
+nav ul li:first-of-type {
+  border-top: 2px solid rgba(200, 200, 200, 0.1);
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul ul {
+  border-bottom: 2px solid rgba(200, 200, 200, 0.1);
+  padding: 20px;
+  font-size: 15px;
+}
+
+nav ul ul:first-of-type {
+  border-top: px solid rgba(200, 200, 200, 0.1);
+}
+
+nav ul ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul ul a:hover {
+  text-decoration: underline;
+}
+
+nav ul ul li {
+  font-size: 10px;
+}
+
+/* Header */
+
+.header {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 130%;
+  position: relative;
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 30px 0;
+}
+
+/* Header Button */
+
+button,
+input[type='submit'] {
+  background-color: var(--secondary-color);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 12px;
+  margin: auto;
+  display: block;
+}
+
+button:focus {
+  outline: none;
+}
+
+.toggle {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 20px;
+  left: 210px;
+}
+
+.cta-btn {
+  padding: 12px 30px;
+  font-size: 20px;
+}
+
+/* Content */
+
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
+}
+
+.cat img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flexbox;
+  padding: 5px;
+}
+
+/* Modal */
+
+/* .modal-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
+
+/* .modal-container.show-modal {
+  display: block;
+} */
+
+/* .modal {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  overflow: hidden;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 400px;
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+
+.modal-header {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 15px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  border-bottom: 1px solid #333;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.modal-form div {
+  margin: 15px 0;
+}
+
+.modal-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modal-form .form-input {
+  padding: 8px;
+  width: 100%;
+}
+
+.close-btn {
+  background: transparent;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.form p{
+  color: #777;
+}
+
+.form_control{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form_control label{
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form_control input{
+  border: 2px solid #777;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form_control input:focus{
+  outline: 0;
+  border-color: #777;
+}
+
+.form_control.success input{
+  border-color: var(--success-color);
+}
+
+.form_control.error input{
+  border-color: var(--error-color);
+}
+
+.form_control small{
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form_control.error small{
+  visibility: visible;
+} */
+
+/* Login */
+
+.page {
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 20px;
+
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #6d88ff;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; */
+
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  overflow: hidden;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 400px;
+  height: 430px;
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.form_control {
+  margin-top: 26px;
+  flex: 1;
+}
+
+.form_control label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-input {
+  display: flex;
+  border-radius: 8px;
+  margin: 20px;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  padding: 8px;
+  width: 90%;
+  height: 40px;
+}
+
+.form-input:focus-within{
+  outline: none;
+  border: 1px solid var(--primary-color);
+}
+
+.form-input::placeholder {
+  color: #333;
+}
+
+.error {
+  margin: 10px;
+  color: var(--error-color);
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.loginbut {
+  margin: auto;
+  display: block;
+}
+
+.loginbut:disabled {
+  background-color: var(--success-color);
+}
+
+
+
+
+/* .form_control.success input{
+  border-color: var(--success-color);
+}
+
+.form_control small{
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form_control.error small{
+  visibility: visible;
+} */
