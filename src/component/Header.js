@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import Login from './Login';
-import Modal from './Modal';
 import Navbar from './Navbar';
 
 export default function Header() {
@@ -48,7 +47,7 @@ export default function Header() {
           setIsNavbarOpen(false);
         }}
       >
-        가입할래요?
+        로그인!
       </button><br />
       {isNavbarOpen && (
         <nav id="navbar" ref={navbarRef}>
