@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Visual Studio Code 설치 #
+    google 검색 -> Visual Studio Code 설치
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Visual Studio Code 확장프로그램 설치 #
+    확장(Ctrl + Shift + X) -> Code Runner(Jun Han), Korean Language Pack for Visual Studio Code(Microsoft)
+                              Live Server(Ritwick Dey), open in browser(TechER) 설치
 
-## Available Scripts
+# Node.js 설치 #
+    Window용 다운로드(x64) 최신 Current 설치
 
-In the project directory, you can run:
+# React JS 설치 #
+    Window CMD(Window key + R) or Visual Studio Code 내의 터미널 실행 -> npx create-react-app (Project Name) 설치
 
-### `npm start`
+# React JS 실행 #
+    Project의 위치가 맞지 않다면 cd (Project경로)로 경로 설정 -> npm start -> Browser Open
+    
+# React JS 종료 #
+    터미널에서 Ctrl + C -> Y
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## React JS 파일 설명 ##
+    node_modules - 현재 Project를 실행할 때 쓰이는 module이 모여있는 곳
+                   폴더를 지우게 되면 Project 실행 불가
+                   삭제 되더라도 npm install만 해주면 그대로 다시 설치 가능
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    public - index.html 안 id='root'밑으로 React Code가 실행되어
+             만들어진 DOM이 구현
 
-### `npm test`
+    src - 대부분의 작업은 src폴더 안에서 진행
+          App.js - 코드 구현(작성 및 수정, 교정)을 하게 되면 Browser에 바로 반영(Hot Module Replacement - HMR)
+          index.css - css코드 구현
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    package.json - node_moules의 내용이 기록 되어 있는 곳
 
-### `npm run build`
+# React-Router-Dom 설치 #
+    터미널 -> npm install react-router-dom
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Json-Sever, REST API 만들기 #
+    터미널 -> 왼쪽 상단 + 버튼 -> npm install -g json-sever -> json-sever --watch ./src/db/data.json(경로 설정) --port 3001
+    \{^_^}/ hi! (실행 성공) -> 하단의 Resources의 링크 클릭 -> 확인
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## REST API 설명 ##
+    URI 주소와 Method로 C(reate) R(ead) U(pdate) D(elete) 요청
+    Create : POST
+    Read : GET
+    Update : PUT
+    Delete : DELETE
