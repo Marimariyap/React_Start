@@ -3,6 +3,7 @@ import Header from './component/Header';
 import Main from './component/Main';
 import Game from './component/Game';
 import Profile from './component/Profile';
+import Countdown from './component/Countdown';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/main" element={<Main />} />
           <Route path="/game-world" element={<Game/>} />
           <Route path="/profile" element={<Profile/>} />
+          <Route path='/countdown' element={<Countdown/>} />
         </Routes>
       </BrowserRouter>
     </div>
