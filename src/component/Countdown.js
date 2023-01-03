@@ -37,39 +37,40 @@ export default function Countdown() {
   }, 1000);
 
   return (
-    <div className="count">
-        <div id="load" ref={loadingRef}>
-            <img src="img/spinner.gif" alt="Loading"/>
-        </div>
-
-        <div ref={countRef}>
-            <div className="year" id="year" ref={yearRef}></div>
-           
-        </div>
-
-        <div id="countdown" ref={countRef} style={{ display: "none" }}>
-            <h1>새해 카운트 다운</h1>
-
-            <div>
-                <h2 id="day" className="time" ref={dayRef}></h2>
-                <div className="timetext">일</div>
+    <div id="count">
+        <div className="count">
+            <div id="load" ref={loadingRef}>
+                <img src="img/spinner.gif" alt="Loading"/>
             </div>
 
-            <div>
-                <h2 id="hou" className="time" ref={hourRef}></h2>
-                <div className="timetext">시</div>
+            <div ref={countRef}>
+                <div className="year" id="year" ref={yearRef}></div>
+            
             </div>
 
-            <div>
-                <h2 id="min" className="time" ref={minuteRef}></h2>
-                <div className="timetext">분</div>
-            </div>
+            <div id="countdown" ref={countRef} style={{ display: "none" }}>
+                <h1>새해 카운트 다운</h1>
 
-            <div>
-                <h2 id="sec" className="time" ref={secondRef}></h2>
-                <div className="time">초</div>
-            </div>
+                <div>
+                    <h2 id="day" className="time" ref={dayRef}></h2>
+                    <div className="timetext">일</div>
+                </div>
 
+                <div>
+                    <h2 id="hou" className="time" ref={hourRef}></h2>
+                    <div className="timetext">시</div>
+                </div>
+
+                <div>
+                    <h2 id="min" className="time" ref={minuteRef}></h2>
+                    <div className="timetext">분</div>
+                </div>
+
+                <div>
+                    <h2 id="sec" className="time" ref={secondRef}></h2>
+                    <div className="time">초</div>
+                </div>
+            </div>
         </div>
     </div>
   );

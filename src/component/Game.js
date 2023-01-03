@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function Game() {
     return(
@@ -17,13 +18,7 @@ export default function Game() {
             <li>클랜전 : 최고 랭크 399위 최고 점수 12,104,455,936점</li>
           </ul>
     
-          <h2>2022년 미래시</h2>
-    
-          <p className= 'redive'>
-            <img src="img/프리코네 전반.jpg" /><img src="img/프리코네 후반.jpg" />
-          </p>
-
-          <h2>2023년 미래시</h2>
+          <h2><Link to="/redive">🖱️ 2022년 종합 정보</Link></h2>
         </div>
     )
 }

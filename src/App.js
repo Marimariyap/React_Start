@@ -4,6 +4,7 @@ import Main from './component/Main';
 import Game from './component/Game';
 import Profile from './component/Profile';
 import Countdown from './component/Countdown';
+import Redive from './component/Redive';
 
 
 function App() {
@@ -13,9 +14,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/main" element={<Main />} />
-          <Route path="/game-world" element={<Game/>} />
+          <Route path="/game" element={<Game/>} />
           <Route path="/profile" element={<Profile/>} />
           <Route path='/countdown' element={<Countdown/>} />
+          <Route path='/redive' element={<Redive/>} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -15,7 +15,7 @@ export default function Navbar() {
                         <li><Link to="/profile">프로필</Link></li>
 
                         <ul>게임 세상
-                            <li><Link to="/game-world">프린세스 커넥스 Re:Dive</Link></li>
+                            <li><Link to="/game">프린세스 커넥스 Re:Dive</Link></li>
                         </ul>
 
                         <ul>내 컨텐츠
