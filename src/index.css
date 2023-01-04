@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+:root {
+  --modal-duration: 1s;
+  --primary-color: #87CEFA;
+  --secondary-color: #9370DB;
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+/* Navnar */
+
+nav {
+  background-color: #6d88ff;
+  border-right: 2px solid rgba(200, 200, 200, 0.1);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  z-index: 100;
+  transform: translateX(0);
+  padding: left 50px;
+}
+
+nav .logo {
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav .logo img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+  
+}
+
+nav ul li {
+  border-bottom: 2px solid rgba(200, 200, 200, 0.1);
+  padding: 15px;
+  margin: 0;
+  font-size: 10px;
+}
+
+nav ul li:first-of-type {
+  border-top: 2px solid rgba(200, 200, 200, 0.1);
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul ul {
+  border-bottom: 2px solid rgba(200, 200, 200, 0.1);
+  padding: 15px;
+  font-size: 10px;
+}
+
+nav ul ul:first-of-type {
+  border-top: px solid rgba(200, 200, 200, 0.1);
+}
+
+nav ul ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul ul a:hover {
+  text-decoration: underline;
+}
+
+nav ul ul li {
+  font-size: 10px;
+}
+
+/* Header */
+
+.header {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 130%;
+  position: relative;
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 30px 0;
+}
+
+/* Header Button */
+
+button,
+input[type='submit'] {
+  background-color: var(--secondary-color);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 12px;
+  margin: auto;
+  display: block;
+}
+
+button:focus {
+  outline: none;
+}
+
+.toggle {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 20px;
+  left: 210px;
+}
+
+.cta-btn {
+  padding: 12px 30px;
+  font-size: 20px;
+}
+
+/* Content */
+
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
+}
+
+.cat img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flexbox;
+  padding: 5px;
+}
+
+h2 a {
+  color: black;
+  text-decoration: none;
+  font-size: auto;
+}
+
+h2 a:hover {
+  text-decoration: underline;
+}
+
+/* Login */
+
+.page {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  overflow: hidden;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 400px;
+  height: 430px;
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.form_control {
+  margin-top: 26px;
+  flex: 1;
+}
+
+.form_control label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-input {
+  display: flex;
+  border-radius: 8px;
+  margin: 20px;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  padding: 8px;
+  width: 90%;
+  height: 40px;
+}
+
+.form-input:focus-within{
+  outline: none;
+  border: 1px solid var(--primary-color);
+}
+
+.form-input::placeholder {
+  color: #333;
+}
+
+.error {
+  margin: 10px;
+  color: var(--error-color);
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.loginbut {
+  margin: auto;
+  display: block;
+}
+
+.loginbut:disabled {
+  display: none;
+}
+
+/* Game */
+
+.redive img{
+  width: 700px;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: block;
+}
+
+/* Profile */
+
+.big_Box{
+  width: 100%;
+  height: 500px;
+  background-color: #6d88ff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.pro_Box img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  align-items: center;
+  left: auto;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pro_Box h1{
+  margin: 50px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  justify-content: center;
+  color: #fff;
+}
+
+.pro_Box p{
+  margin: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.profile{
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  justify-content: center;
+}
+
+.im{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
+  font-display: none;
+  justify-content: center;
+}
+
+/* CountDown */
+
+.count{
+  background-image: url('https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80');;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.count::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body *{
+  z-index: 1;
+}
+
+#countdown h1{
+  font-size: 60px;
+  margin: -80px -100px 40px;
+  position: absolute;
+  top: auto;
+}
+
+.year{
+  font-size: 200px;
+  z-index: -1;
+  opacity: 0.2;
+  position: absolute;
+  bottom: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.countdown{
+  display: none;
+  transform: scale(2);
+}
+
+.time{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.time h2{
+  margin: 0 0 5px;
+}
+
+@media(max-width: 500px){
+  h1{
+      font-size: 45px;
+  }
+
+  .time {
+      margin: 5px;
+  }
+
+  .time h2{
+      font-size: 12px;
+      margin: 0;
+  }
+
+  .time .timetext{
+      font-size: 10px;
+  }
+}

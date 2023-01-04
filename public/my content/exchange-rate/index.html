@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exchange-rate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="css/money.png" alt="" class="money_img">
+    <h1>환율 계산기</h1>
+    <p>환율을 받을 통화와 금액을 선택하십시오.</p>
+
+    <div class="container">
+        <div class="currency">
+            <select id="currency_one">
+                <option value="" selected>선택하십시오</option>
+                <option value="AUD">호주 달러</option>
+                <option value="EUR">유로</option>
+                <option value="JPY">엔화</option>
+                <option value="KRW">원화</option>
+                <option value="USD">달러</option>
+            </select>
+            <input type="number" id="amount_one" placeholder="입력하십시오." value="null">
+        </div>
+
+        <div class="swap_rate">
+            <button class="btn" id="swap">
+                △▽
+            </button>
+            <div class="rate" id="rate"></div>
+        </div>
+
+        <div class="currency">
+            <select id="currency_two">
+                <option value="" selected>선택하십시오</option>
+                <option value="AUD">호주 달러</option>
+                <option value="EUR">유로</option>
+                <option value="JPY">엔화</option>
+                <option value="KRW">원화</option>
+                <option value="USD">달러</option>
+            </select>
+            <input type="number" id="amount_two" placeholder="입력하십시오." value="null">
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
