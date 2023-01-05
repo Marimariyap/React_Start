@@ -246,11 +246,29 @@ h2 a:hover {
 
 /* Game */
 
-.redive img{
+.container img {
+  width: 1000px;
+  height: 400px;
+}
+
+.gameImg img {
   width: 700px;
   height: auto;
   border: 1px solid rgba(0, 0, 0, 0.3);
   display: block;
+}
+
+.sources {
+  font-size: 5px;
+}
+
+.sources a {
+  color: black;
+  text-decoration: none;
+}
+
+.sources a:hover {
+  text-decoration: underline;
 }
 
 /* Profile */
@@ -313,7 +331,7 @@ h2 a:hover {
 /* CountDown */
 
 .count{
-  background-image: url('https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80');;
+  background-image: url('https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

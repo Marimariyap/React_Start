@@ -1,7 +1,9 @@
-export default function redive() {
+import { Link } from "react-router-dom";
+
+export default function Redive() {
     return(
         <div className="container">
-            <div className= 'redive'>
+            <div className= 'gameImg'>
                 <h2>2022년 가챠 미래시</h2>
                 <p><img src="img/Re_Dive_Get.jpg" alt="redive"/></p>
 
@@ -17,6 +19,7 @@ export default function redive() {
                 <h2>2022년 코인상점</h2>
                 <p><img src="img/Re_Dive_Coin.jpg" alt="redive"/></p>
 
+                <div className="sources"><p>출처 : <Link to="https://www.fmkorea.com/4773880784">에펨코리아</Link></p></div>
           </div>
         </div>
     )
