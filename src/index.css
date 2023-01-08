@@ -246,11 +246,77 @@ h2 a:hover {
 
 /* Game */
 
-.redive img{
+.container .blue img {
+  width: 1000px;
+  height: 450px;
+}
+
+.gameImg img {
   width: 700px;
   height: auto;
   border: 1px solid rgba(0, 0, 0, 0.3);
   display: block;
+}
+
+.sources {
+  font-size: 5px;
+}
+
+.sources a {
+  color: black;
+  text-decoration: none;
+}
+
+.sources a:hover {
+  text-decoration: underline;
+}
+
+.container .bluearc {
+  color: skyblue;
+}
+
+.container .princess {
+  color: pink;
+}
+
+/* Princess Connect Redive*/
+
+.container .princess img {
+  width: 1000px;
+  height: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+
+.container .princess_icon a{
+  color: black;
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.container .princess_icon #prin > li {
+  display: inline-block;
+  position: relative;
+}
+.container .princess_icon #prin > li > a {
+  display:block; 
+  position:relative; 
+  padding-bottom:25px;
+  margin: 10px;
+}
+.container .princess_icon #prin > li > a > img {
+  width:100px;
+  height:100px;
+  margin: 10px;
+}
+.container .princess_icon #prin > li > a > span {
+  position:absolute;
+  bottom:0; left:50%;
+  color:#666;
+  line-height:1.462em;
+  white-space:nowrap;
+  transform:translate(-50%, 0)
 }
 
 /* Profile */
@@ -313,7 +379,7 @@ h2 a:hover {
 /* CountDown */
 
 .count{
-  background-image: url('https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80');;
+  background-image: url('https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
