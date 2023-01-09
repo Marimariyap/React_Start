@@ -4,9 +4,11 @@ export default function PrincessConnect() {
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/Redive/Re_Dive_back.jpg" alt="redive"/></div>
+          <div className="princess">
+            <img src="img/Redive/Re_Dive_back.jpg" alt="redive"/>
+            <h1>프린세스 커넥스 Re:Dive</h1>
+          </div>
 
-          <h1>프린세스 커넥스 Re:Dive</h1>
           <h2>재화</h2>
           <p>
             2022-09-15 쥬얼 110,000<br/>

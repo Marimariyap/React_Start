@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
 
 export default function Redive() {
+const sour= "https://www.fmkorea.com/4773880784";
+
     return(
         <div className="container">
 
@@ -23,8 +24,8 @@ export default function Redive() {
 
                 <h2>2022년 코인상점</h2>
                 <p><img src="img/Redive/Re_Dive_Coin.jpg" alt="redive"/></p>
-
-                <div className="sources"><p>출처 : <Link to="https://www.fmkorea.com/4773880784">에펨코리아</Link></p></div>
+                
+                <button className="sources" onClick={()=>{window.open(sour)}}>출처 : 에펨코리아</button>
           </div>
         </div>
     )
