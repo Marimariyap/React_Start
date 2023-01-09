@@ -251,6 +251,10 @@ h2 a:hover {
   height: 450px;
 }
 
+.container .blue {
+  color: skyblue;
+}
+
 .gameImg img {
   width: 700px;
   height: auto;
@@ -262,24 +266,11 @@ h2 a:hover {
   font-size: 5px;
 }
 
-.sources a {
-  color: black;
-  text-decoration: none;
-}
-
-.sources a:hover {
-  text-decoration: underline;
-}
-
-.container .bluearc {
-  color: skyblue;
-}
+/* Princess Connect Redive*/
 
 .container .princess {
-  color: pink;
+  color: rgb(252, 179, 191);
 }
-
-/* Princess Connect Redive*/
 
 .container .princess img {
   width: 1000px;

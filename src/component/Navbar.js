@@ -6,7 +6,7 @@ export default function Navbar() {
 
                 <nav id="navbar">
                     <div className="logo">
-                        <Link to="/"><img src="img/KakaoTalk_20221122_003936497.jpg" alt="user" /></Link>
+                        <Link to="/"><img src="img/Main/KakaoTalk_20221122_003936497.jpg" alt="user" /></Link>
                     </div>
 
                     <ul>

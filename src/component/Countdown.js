@@ -40,7 +40,7 @@ export default function Countdown() {
     <div id="count">
         <div className="count">
             <div id="load" ref={loadingRef}>
-                <img src="img/spinner.gif" alt="Loading"/>
+                <img src="img/Main/spinner.gif" alt="Loading"/>
             </div>
 
             <div ref={countRef}>
