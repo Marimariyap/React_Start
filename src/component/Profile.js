@@ -10,7 +10,7 @@ export default function Profile() {
                     </div>
             
                         <div className="img">
-                            <img src="img/KakaoTalk_20221122_003936497.jpg" alt="user" />        
+                            <img src="img/Main/KakaoTalk_20221122_003936497.jpg" alt="user" />        
                         </div>
                     <div className="im">집가고 싶다</div>
                 </div>    

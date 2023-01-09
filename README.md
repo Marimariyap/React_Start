@@ -1,20 +1,20 @@
-# Visual Studio Code 설치 #
+## Visual Studio Code 설치 ##
     google 검색 -> Visual Studio Code 설치
 
-# Visual Studio Code 확장프로그램 설치 #
+## Visual Studio Code 확장프로그램 설치 ##
     확장(Ctrl + Shift + X) -> Code Runner(Jun Han), Korean Language Pack for Visual Studio Code(Microsoft)
                               Live Server(Ritwick Dey), open in browser(TechER) 설치
 
-# Node.js 설치 #
+## Node.js 설치 ##
     Window용 다운로드(x64) 최신 Current 설치
 
-# React JS 설치 #
+## React JS 설치 ##
     Window CMD(Window key + R) or Visual Studio Code 내의 터미널 실행 -> npx create-react-app (Project Name) 설치
 
-# React JS 실행 #
+## React JS 실행 ##
     Project의 위치가 맞지 않다면 cd (Project경로)로 경로 설정 -> npm start -> Browser Open
     
-# React JS 종료 #
+## React JS 종료 ##
     터미널에서 Ctrl + C -> Y
 
 ## React JS 파일 설명 ##
@@ -31,10 +31,10 @@
 
     package.json - node_moules의 내용이 기록 되어 있는 곳
 
-# React-Router-Dom 설치 #
+## React-Router-Dom 설치 ##
     터미널 -> npm install react-router-dom
 
-# Json-Sever, REST API 만들기 #
+## Json-Sever, REST API 만들기 ##
     터미널 -> 왼쪽 상단 + 버튼 -> npm install -g json-sever -> json-sever --watch ./src/db/data.json(경로 설정) --port 3001
     \{^_^}/ hi! (실행 성공) -> 하단의 Resources의 링크 클릭 -> 확인
 

@@ -246,9 +246,9 @@ h2 a:hover {
 
 /* Game */
 
-.container img {
+.container .blue img {
   width: 1000px;
-  height: 400px;
+  height: 450px;
 }
 
 .gameImg img {
@@ -269,6 +269,54 @@ h2 a:hover {
 
 .sources a:hover {
   text-decoration: underline;
+}
+
+.container .bluearc {
+  color: skyblue;
+}
+
+.container .princess {
+  color: pink;
+}
+
+/* Princess Connect Redive*/
+
+.container .princess img {
+  width: 1000px;
+  height: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+
+.container .princess_icon a{
+  color: black;
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.container .princess_icon #prin > li {
+  display: inline-block;
+  position: relative;
+}
+.container .princess_icon #prin > li > a {
+  display:block; 
+  position:relative; 
+  padding-bottom:25px;
+  margin: 10px;
+}
+.container .princess_icon #prin > li > a > img {
+  width:100px;
+  height:100px;
+  margin: 10px;
+}
+.container .princess_icon #prin > li > a > span {
+  position:absolute;
+  bottom:0; left:50%;
+  color:#666;
+  line-height:1.462em;
+  white-space:nowrap;
+  transform:translate(-50%, 0)
 }
 
 /* Profile */

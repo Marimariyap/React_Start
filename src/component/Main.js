@@ -22,7 +22,7 @@ export default function Content() {
             뜻은 고양이 한마리.. 두마리.. 얍..!
             </p>
 
-            <p className="cat"><img src="img/cat.jpg" alt="cat" /><img src="img/cat2.jpg" alt="cat" /><img src="img/yap.jpg" alt="yap" /></p>
+            <p className="cat"><img src="img/Main/cat.jpg" alt="cat" /><img src="img/Main/cat2.jpg" alt="cat" /><img src="img/Main/yap.jpg" alt="yap" /></p>
     
             <h2>내 컨텐츠</h2>
             <ul>
