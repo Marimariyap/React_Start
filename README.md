@@ -44,3 +44,8 @@
     Read : GET
     Update : PUT
     Delete : DELETE
+
+## GIT으로 파일 GIT HUB로 옮기기 ##
+    GIT 설치 -> GIT 초기 설정 -> 터미널에서 git init ->  가입이름과 이메일 작성 -> GIT HUB의 Repository의 주소 복사
+    git add로 파일 추가 -> git commit -m "커밋 메세지" -> git push -u origin master (origin : GIT HUB의 Repository의 주소)
+    GITHUB 로그인
