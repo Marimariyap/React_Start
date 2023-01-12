@@ -1,11 +1,15 @@
 
 export default function Pecorine() {
+    const newLocal = "https://w.namu.la/s/d2ffb9bd5c33e145983411c33a5980b1b6f702a2e9a3958ce9827d1622d5a74057b245be2177cf76c2d94ea49e3922074aa5d7e276f875dba342b8ca0e17babc555d57ae45f3508d224cd801164e4387435b2c922b519154531806534e8b7065";
+    const newLocal_1 = "https://w.namu.la/s/f7dfe208ce95cc6ac2b83b733eae5cc6fd2b0519c0878fff285d67b57359191e6adbaf291cd89901e963a194891f4ccccc93b1e4a33175ee0d636311c2f67794bf401e32a29558d83224a7b3282aeb40ebda517c5f20c32fb44e6400c4f9cd4de80f9d30fda1de850ff0fb853521b075";
+    const newLocal_2 = "https://w.namu.la/s/c28885c4db6ce207c345cd5679aa094472bba0fce79885f7eaabc6ab6a05c4074983d2624d978e8e41be01cc5330bca14ccad1aeaca362175f11a8c4440b2ff272a3d7553616ec7d1b354536074b4aef50f59589e76ef4388c409d4fd9f18fa255c2806c44ed6878c5c90af325c045ab";
+    const newLocal_3 = "https://w.namu.la/s/65397f86a4bf430c9e7078ab15351c952647e87ff9620099b49645147e30acdcd9aceb4305b7fb37c4fd163e6e67e24b59b997f2868eab6d946c3a819a573edd51a069c7fcf5943855184fe85db4ca6fd5fc815d5bf55ac85f25cfa30710ef236dc45f48574b50381d07f9e1656f2617";
     return(
         <div className="container">
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/Pecorine_back.png" alt="redive"/></div>
+            <div className="princess"><img src={newLocal} alt="redive"/></div>
             <h1>페코린느 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
@@ -43,7 +47,7 @@ export default function Pecorine() {
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/PecorineSummer_back.png" alt="redive"/></div>
+            <div className="princess"><img src={newLocal_1} alt="redive"/></div>
             <h1>페코린느(수영복) ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
@@ -80,7 +84,7 @@ export default function Pecorine() {
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/PecorineNewyear_back.png" alt="redive"/></div>
+            <div className="princess"><img src={newLocal_2} alt="redive"/></div>
             <h1>페코린느(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
@@ -122,7 +126,7 @@ export default function Pecorine() {
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/PecorinePrincess_back.png" alt="redive"/></div>
+            <div className="princess"><img src={newLocal_3} alt="redive"/></div>
             <h1>페코린느(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>

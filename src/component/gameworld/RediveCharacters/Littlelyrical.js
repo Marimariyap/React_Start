@@ -1,9 +1,10 @@
 
 export default function Littlelyrical() {
+    const newLocal = "https://w.namu.la/s/b3107c4aa497cffdd363cf2f6b9534de3066cc123caa0434cd175b4d72c2ba16c08ab7a922d1951ecd7854002265151114bcffa556bfc4b7e4eb60a5c834a3a8678c17d896471f9a80caa52d07f87b3afdebede9bc024b086a7c1872dbdad93c5367d04e278def1492a9d5508f10d200";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Littlelyrical_back.png" alt="redive"/></div>
+          <div className="princess"><img src={newLocal} alt="redive"/></div>
 
           <h1>미소기&미미&쿄우카 ⭐⭐⭐⭐⭐</h1>
 

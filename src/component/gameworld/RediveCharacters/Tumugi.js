@@ -1,9 +1,12 @@
 
 export default function Tumugi() {
+    const newLocal = "https://w.namu.la/s/00534675577a6e4841f065a634d9b53409b280828ea3926985487100896f9a2f4f6a36152111c145d4f3bf90f9bd03757111aefee37776608d161ad362e2d4acef145f429cdaa66a1ce38fd722cfc5aab76f69c6d7beeb16a0cc0af34702d180cd4c6306da4f53b076e040f29304398c";
+    const newLocal_1 = "https://w.namu.la/s/9a65226c08b45e2afaa509bc68980e4a67d04b1dfb691f713afe264e79b9261570c30eccd6bdecbfdad78568065652697070f2723d0192c6516501d85d38625e9d8d79d72cf2f67d3751467710f57aca1533dd18b61655ea9938e3d53cae48e6ef03c9653ff9006e2e3925749b41db2d";
+    const newLocal_2 = "https://w.namu.la/s/faf3ee7e23e336fb2b34fea45b7a9ea18f39e0b43a4a1a0c931300f53a76f758f163328129579038d117b9026fc14f1077ae84c094009c96c7afdeedb286dc328b3fd72fe05577b20d68edd84646d6f10565a1a7a973c90c0900c329d8b380ce87a271991bafb4d9c2a0a025e8a89013";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Tumugi_back.png" alt="redive"/></div>
+          <div className="princess"><img src={newLocal} alt="redive"/></div>
 
           <h1>츠무기 ⭐⭐⭐⭐⭐</h1>
 
@@ -42,7 +45,7 @@ export default function Tumugi() {
 
 
           
-                <div className="princess"><img src="img/RediveCharacter/TumugiSummer_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
             <h1>츠무기(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
@@ -77,7 +80,7 @@ export default function Tumugi() {
 
 
 
-                <div className="princess"><img src="img/RediveCharacter/TumugiGhost_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
             <h1>츠무기(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>

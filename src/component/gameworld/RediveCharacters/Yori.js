@@ -1,17 +1,18 @@
 
-export default function Mimi() {
-    const newLocal = "https://w.namu.la/s/7cc5e7a0e0d95d0d3c8f36fca966877771f5157e6c532802ed2b52eb9c9538803f99c5249bde3d7e270cf152c3607ea01ca3a5dd157d1e7153c941b05e2babba4de962d08bf48936dd3755468c359c9f3d1f33458765541c7093c0f623aaae4aef698526d1a3aabf1b1ac598aff9954c";
-    const newLocal_1 = "https://w.namu.la/s/afbd2e97b8b144fb48c8ad127cef02566c9c8495742128c7820c7a2fa9279ba07592e964f43f7d5e804b9acd73633f193074c29a9df1a1df6cabb7ced3f2b84c46e310fda95830c70b7ce91247fe4f7817f3b3dfd28500b7ea80cbc1b73333dac68c935217012a306ed63555af67ee45";
+export default function Yori() {
+    const newLocal = "https://w.namu.la/s/e51d4333a373778037cfc9e5b3defc0c787e477982eadac6b862d3b1d536cab6c1428ccb3d827c8846530e572f1186475eeadce3a4b21382f8c70aa43dde6b7a7ee42660de73e756dbc7f8d90213bf0fd72d47266b184524727d35fd5a6f5bb023a476aa23eea30f7f0c6fac341e841a";
+    const newLocal_1 = "https://w.namu.la/s/c5f4e0a969330353a294a0f50590a4788cb3bd49a0a8715c9db452c15123da09783b6328f26940b29cc2eae8c2156d76e258a7c406fd8e2d71d90510cf350dfc6193af3635783d51785458b5c6c0de8d76bf874838c5a6e420056db39d9cf173";
     return(
         <div className="container">
 
           <div className="princess"><img src={newLocal} alt="redive"/></div>
 
-          <h1>미미 ⭐⭐⭐⭐⭐⭐</h1>
+          <h1>요리 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>토끼씨 블레이드 (뿅뿅 어택 강화)</strong><br/>
-                미미가 애용하는 검. 그 귀여움에 푹 빠진 미미가 휘두르면, 보기와는 정반대의 공격 범위로 적에게 아픈 경험을 하게 해준다.                </p>
+                    준수한 물리 공격력과 크리티컬에 더해 성장치는 없지만 명중이 3 추가되어 안정성이 보강
+                </p>
 
             <h2>소개</h2>
                 <p>
@@ -43,11 +44,13 @@ export default function Mimi() {
 
 
                 <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>미미(할로윈) ⭐⭐⭐⭐⭐</h1>
+            <h1>요리(엔젤) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>빙글빙글 토끼씨 블레이드 (빙글빙글 어택 강화)</strong><br/>
-                할로윈을 위해 미미가 어머니와 함께 만든, 붕대를 빙글빙글 만 토끼씨 블레이드. 귀염성과 감촉이 양쪽 다 좋아졌다고 한다.                </p>
+                    공격 대기시간(선딜레이)가 1.67초에서 1.33초로 감소하는 효과를 받았다.<br/>
+                    전용장비로 강화되는 스킬 중에서 딜레이 관련 조정을 받은 것은 할로윈 미미가 최초
+                </p>
 
             <h2>소개</h2>
                 <p>

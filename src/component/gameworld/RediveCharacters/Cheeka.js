@@ -1,17 +1,20 @@
 
 export default function Cheeka() {
+    const newLocal = "https://w.namu.la/s/9f69688ad45d07143fcfc210e114e2b4608276950d2a5aa51c771c965777fc6e05082b2c0a23154c6e4b7cf2a29965e7fc3967f04454dd227a7906a2ebff6124f20c5ead5700160057c6dd9f55d6c09d2cdb2ff165ab459e05825a4c0fa136dd239e3ce657e29ca76df793c6165e244e";
+    const newLocal_1 = "https://w.namu.la/s/786d909bb3fd22870e74302a510f8a1f93502c68c869cfe67516b90e9593abab0abcfa1809126560a90a0b78725db607ce311f385e76fca49721f7d9dba7a6590d772b7cb3ae9a9cfc321b6f8be819c71dc77d32216174592866151758fd0f3ed54c4989612ab6558a84777f40ec3d35";
+    const newLocal_2 = "https://w.namu.la/s/1b573d9671e61bcee6d264c3855017ef0e81bfffd34bdc4d522250fab999401a46287090b50ccfb5908407416ffde0331d46d8cdafc9f10ab0567e5c958969bb1f775cbd1331658481736c705794f4ddb00927f4c898aa08472c7a4e0e1cf79800bc88016111894f145d87cf31263f94";
+    
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Cheeka_back.png" alt="redive"/></div>
+          <div className="princess"><img src={newLocal} alt="redive"/></div>
 
           <h1>치카 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p>
                     <strong>취령보의 룬 노트 (치어 송 강화)</strong><br/>
-                    회복필드의 회복량은 크지 않아도 버프와 동시에 들어가는 광역 일반 회복기가 추가된다는 것만으로 큰 의의.
-                </p>
+                    용기의 창환술이 기록된 악보. 치카의 맑은 노랫소리의 가호로 아군의 감각은 총명해지고, 적의 급소를 노리기 쉽게 된다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -42,7 +45,7 @@ export default function Cheeka() {
 
 
           
-                <div className="princess"><img src="img/RediveCharacter/CheekaSummer_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
             <h1>치카(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
@@ -77,14 +80,12 @@ export default function Cheeka() {
 
 
 
-                <div className="princess"><img src="img/RediveCharacter/CheekaChristmas_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
             <h1>치카(성탄절) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>취령장 룬 스노우 (어센션 왈츠 강화)</strong><br/>
-                    기본 버프 수치는 변화가 없지만 대신 치카의 마법공격력의 30% 만큼을 가산하는 효과가<br/>
-                    추가되어 실제로는 특대급의 버프량을 얻게 되었다.
-                </p>
+                성야의 정령들을 깃들게 한 치카의 마법 지팡이. 창환술에 호흥한 정령들에 의한 크리스마스의 가호가, 대상자의 능력을 크게 향상시킨다.                </p>
 
             <h2>소개</h2>
                 <p>

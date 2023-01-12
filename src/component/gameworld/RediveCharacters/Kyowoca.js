@@ -1,16 +1,17 @@
 
 export default function Kyowoca() {
+    const newLocal = "https://w.namu.la/s/d94571f6c136cbe2b6e004cba0480491118c2048aaeaa6d2b5d98d57f8d225ea7307a5622482940ae867d1ef89ea1e98d8833aeb4dd871e17d80b0d126bad1c8c7c883ecd0f4910fba61db045568aa4db397fc5f2a193ee10a092b22827929908b0fa52269ba9e914c671d48d78a6643";
+    const newLocal_1 = "https://w.namu.la/s/1ca8125f945707d2b4be2c14d4bf72673b9bca904f6b3a6cff8c4a85d5e0e5e41080f7de201e66eab6b55a0e65043b6ac3e56b3fc003373a1eb0ff94ae814da0453e56bea8140befe9fa2ee409519883dc1befa2aba03df7171dcfa8b57842568ea46c984ec0a244c712bedcbb74e180";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Kyowoca_back.png" alt="redive"/></div>
+          <div className="princess"><img src={newLocal} alt="redive"/></div>
 
           <h1>쿄우카 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>코스모 블루 로드 (아이스 랜스 강화)</strong><br/>
-                    굳이 치명타가 터지지 않더라도 최상급 단일스킬 중 하나가 되므로 전장은 필수.
-                </p>
+                쿄우카가 애용하는 지팡이. 보옥에 고위의 수룡의 힘을 깃들게 해, 사용자에 따라 그 형상을 바꾼다는 구전이 남아있다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -40,14 +41,12 @@ export default function Kyowoca() {
 
 
           
-                <div className="princess"><img src="img/RediveCharacter/KyowocaGhost_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
             <h1>쿄우카(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>할로윈 고양이씨 브룸 (매지컬 트릭 강화)</strong><br/>
-                    전용장비는 조금 아쉬운 성능으로, 현재 클배 마딜팟의 핵심딜러인 뉴캬루에게 있어선<br/>
-                    충분히 유버 버프가 중첩될 경우(5~6번가량) 할쿄카의 버프로 인한 데미지 차이는 그리 크지 않다.
-                </p>
+                할로윈을 위해 쿄우카가 몰래 준비한 검은 고양이가 모티브인 빗자루. 가끔씩 걸터앉아 하늘을 나는 상상을 하는것은 모두에게 비밀인 듯 하다.                </p>
 
             <h2>소개</h2>
                 <p>

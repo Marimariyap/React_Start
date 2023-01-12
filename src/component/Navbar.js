@@ -21,7 +21,7 @@ export default function Navbar() {
 
                         <ul>내 컨텐츠
                             <li><Link to='/countdown'>새해 카운트 다운</Link></li>
-                            <li><Link to='my content\exchange-rate\index.html'>환율 계산기</Link></li>
+                            <li><Link to='/Exchangerate'>환율 계산기</Link></li>
                             <li><Link to='my content\relaxer-app\index.html'>명상 시간</Link></li>
                             <li><Link to='my content\form-valiodator\index.html'>양식 확인</Link></li>
                             <li><Link to='my content\typing-game-make\index.html'>타자 연습</Link></li>

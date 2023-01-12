@@ -1,16 +1,18 @@
 
 export default function Hiyori() {
+    const newLocal = "https://w.namu.la/s/00eb6cf1174cf2e0f23c7e7a592171531e0631db37adafb08c59ffd19178b8418e13f502f2c062e1f154fbc825fb715e5b1aa2e15d981e698af29d02fc3c249788a162e570d34798e8a4221118cb794d7c9bd7e561301132e5698a1f02cfc50c34683db974754495a38bdd59812c8562";
+    const newLocal_1 = "https://w.namu.la/s/b824c64353fc77053f2351154211b8df402dcaf9f91c79e69821d29321dbae63a0d4901af46815d08f86d093691fffa99b52eafa0dc301aff8930f1b1e3a6dd2be7907fec17e0f5cc765e860e92ec8919945d58e27f49c2c015d954b20cf549a0210584e64de717b76d6b1b899cce50b";
+    const newLocal_2 = "https://w.namu.la/s/960c1907fffeb5d8ba4928c9939bf89d53c41dcc9c93fbdb3c52f7cf1aa31ebdcc10624622a20bdd0808fae699e09f1b4919c2893aea4d929941b6a34c7716c49d046e89f8a5947b14b58433792bb5724277a974dcecb1862621c05c368aed49f2e4c137b6989ee85f454da1fd325876";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Hiyori_back.png" alt="redive"/></div>
+          <div className="princess"><img src={newLocal} alt="redive"/></div>
 
           <h1>히요리 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>냥피언 벨트 (캣 스트라이크 강화)</strong><br/>
-                    PVE 물리 딜러 멀티타겟으로선 여전히 입지가 존재하는 편.
-                </p>
+                히요리가 착용하는 벨트. 용맹한 짐승이 노려보는 버클은 투쟁본능을 고무시키고, 그 주먹에 한층 더 강력한 힘을 부여한다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -40,13 +42,12 @@ export default function Hiyori() {
 
 
           
-                <div className="princess"><img src="img/RediveCharacter/HiyoriNewyear_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
             <h1>히요리(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>묘명신 냥피스트 (젤리 차지 강화)</strong><br/>
-                    자버프가 빈약한 물리 어태커들의 딜량을 끌어올릴 수 있는 고성능 딜포터로 탈바꿈 시킨다.
-                </p>
+                고양이와 연이 있는 신사에 바쳐져있던 유서 깊은 농수. 장착자에게 승리를 가져다 준다 하며, 히요리의 바른 마음과 호응해 그 이익은 절대적이다.                </p>
                 
             <h2>소개</h2>
                 <p>
@@ -76,7 +77,7 @@ export default function Hiyori() {
 
 
 
-                <div className="princess"><img src="img/RediveCharacter/HiyoriPrincess_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
             <h1>히요리(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>

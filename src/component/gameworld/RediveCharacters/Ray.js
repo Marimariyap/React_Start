@@ -1,9 +1,13 @@
 
 export default function Ray() {
+    const newLocal = "https://w.namu.la/s/36780f73c6f306a4f54eca390b4c7c694d477714957c287e146495ea7859435c4baa9442026c37ca1e304ef20c9fd7d20e4f0aad04d15d0cfb3004889f807fa697bab05c01f71e8c4e555d7af8e6830453a2379cb6dbddb6c171689c6cdf12f075e76ea4335705a2337cf1dddb81db0d";
+    const newLocal_1 = "https://w.namu.la/s/50f3efa953bfbc67f83f52a4b8dc7b1a2710c0965f1712b8a8eefd81f5606b565221f4e7cfa7ce15a40471e5453c8a463d192ddc74528c9f5eeed8daaf0363e14b041e2931f520e055686f4b137c4ba974319397f0eedee20ed6d48b0d2e8f4f8f2d53ef13eb05595012dd1dde863569";
+    const newLocal_2 = "https://w.namu.la/s/2c6bcf6158b2723a8cc70c3b71a3d31be36ef31b7321150c775ac96c378f19c7ed46a7303c3b1820c1ab226d8b0f53438c6b9961948bce0c4905ff847ceebb395fe89ce23a3b2a3a1bea4d3806de2e5b7ee44fefcc47a29e02fe1f544fe45acc13ad1d03abbebcd8f4a87c4f7e96dc7d";
+    const newLocal_3 = "https://w.namu.la/s/bd6715f2e98a3965dcf38849c7a670e1114fc0290e58c60467e1d0b6865cb3a44caeb8cdd176be18904eb87a2c28062da119f38b09e005e6dad967d47cb29e2818b460ca61d23a868ca7c48c1bb30c698eb0ac35e79ca1da2aefeb29b023f69cb12c3232264e8842fb3a09e040f2c4ec";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Ray_back.png" alt="redive"/></div>
+          <div className="princess"><img src={newLocal} alt="redive"/></div>
 
           <h1>레이 ⭐⭐⭐⭐⭐⭐</h1>
 
@@ -39,7 +43,7 @@ export default function Ray() {
 
 
           
-                <div className="princess"><img src="img/RediveCharacter/RayNewyear_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
             <h1>레이(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
@@ -77,7 +81,7 @@ export default function Ray() {
 
 
 
-                <div className="princess"><img src="img/RediveCharacter/RayPrincess_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
             <h1>레이(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
@@ -114,7 +118,7 @@ export default function Ray() {
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/RayGhost_back.png" alt="redive"/></div>
+            <div className="princess"><img src={newLocal_3} alt="redive"/></div>
             <h1>레이(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>

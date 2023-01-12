@@ -1,9 +1,13 @@
 
 export default function Yui() {
+    const newLocal = "https://w.namu.la/s/efb981d9252a7faf020650bc0bda4823ddd0482cc70b7459e6b59e2441568846224ee5a03f306f1b1252a6745c3003bc5058c34ce270668596fdad0e9430663dd2ff2f95a43d0460069aca04d9a9ca41ff9db082412a4632b87066490b23274d88825e10196464556110c1f846d66bea";
+    const newLocal_1 = "https://w.namu.la/s/455c075b9d364cd5ed13cf45f099bb442eeacf28725a491fe8dcbcca3b1006efaed1715f2873dcc2b39a05d436a8ca94ad04d2a0b38b3b969a1b7cd17bf52752461e066c19c543ba27cca23f61b4306051b5b938afe7ff1b3318e9b85400174bbf09ea5fbc274340722c05ebba82f973";
+    const newLocal_2 = "https://w.namu.la/s/0d074c1596866829b18affa86d08ae4cae503f13f2cfa47882dcc00857716875dceef98ae70aad90ecef705f103a85316cb8db50a417065434b4f771e9675ee81475da728d92cfea1eba00a42c0e18438c83b119077a714ed78825a6ddda6d340c91ad4089485758b08156af7aad6141";
+    const newLocal_3 = "https://w.namu.la/s/9c186067a767f45f92d5f0081fb558bc7bf17987b00c80ed3fd92515be5729eedd3f03589e13c69e8737007bc9d9117409869513779cb555e8b231c02235f1ec73e7e6b61b34c2e9966eaebbadcaff03851823503c05d69f0e4d38f055d08e346c12bd110085d03ead26c601a43d040f";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Yui_back.png" alt="redive"/></div>
+          <div className="princess"><img src={newLocal} alt="redive"/></div>
 
           <h1>유이 ⭐⭐⭐⭐⭐⭐</h1>
 
@@ -42,7 +46,7 @@ export default function Yui() {
 
 
           
-                <div className="princess"><img src="img/RediveCharacter/YuiNewyear_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
             <h1>유이(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
@@ -81,7 +85,7 @@ export default function Yui() {
 
 
 
-                <div className="princess"><img src="img/RediveCharacter/YuiPrincess_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
             <h1>유이(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
@@ -119,7 +123,7 @@ export default function Yui() {
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/YuiDress_back.png" alt="redive"/></div>
+            <div className="princess"><img src={newLocal_3} alt="redive"/></div>
             <h1>유이(의장복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>

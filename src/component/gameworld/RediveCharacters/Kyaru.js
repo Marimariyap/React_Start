@@ -1,18 +1,20 @@
 
 export default function Kyaru() {
+    const newLocal = "https://w.namu.la/s/54eafafb45d45d0dada320f8c5e72b8676400d65881e706af770a9e1242bc22bdd4936e97c36e9be870befb129cdc4f82c23351e7c509cdc7ae70fcd19aa28736f353faaad7d9b803881ed706a2594c66486acbb27bc1ceb1b09116051b79d7d9457a265505492ff561bbface8cdcb59";
+    const newLocal_1 = "https://w.namu.la/s/ef08cfb4ff7b1fa6157d0d2b7014e473109657a581849c0aca2cf60190b990ef7585632b29ac3546e08a6bbf69dfbcdeddc0afe8e447517646153c59e30b39cd99e2a10ce216ccba147fc400118987f1ba8a72d4e3fbfbcc03e2682a7cd1ae8507324881578ada50498d0ae16203d70b";
+    const newLocal_2 = "img/RediveCharacter/KyaruNewyear_back.png";
+    const newLocal_3 = "https://w.namu.la/s/3f310b9aea9dec16681d28243bc1459e82d926461d7951f85db5e032136f4a0a71294c5eafb57fdf53057c3df44975307f1450abbd2c501d429ca16564da4c2598c0b6a734ebc2fa9e55ba280d63d87bfb696e79231a9adcd6ab047cd1e638e007a6670bf6d49a37c7ec085ac122ea80";
     return(
         <div className="container">
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/Kyaru_back.png" alt="redive"/></div>
+            <div className="princess"><img src={newLocal} alt="redive"/></div>
             <h1>캬루 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>카오스 그리모어 (썬더 볼 강화)</strong><br/>
-                    전용장비를 달아주면 높은 스탯상승과 함께 1스킬에 강력한 범위 추가능력이 붙으면서 괜찮은<br/>
-                    2 ~ 2.5군 마법캐릭터로 거듭난다.
-                </p>
+                캬루가 가지고 다니는 마도서. 책에 깃든 흘러넘칠 듯한 마력을 제어하면 기입된 강력한 술식을 자유자재로 다룰 수 있다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -41,13 +43,12 @@ export default function Kyaru() {
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/KyaruSummer_back.png" alt="redive"/></div>
+            <div className="princess"><img src={newLocal_1} alt="redive"/></div>
             <h1>캬루(수영복) ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>고양이 튜브 서머 플로트 (워터 배럿 강화)</strong><br/>
-                    전용장비로 인해 마법 방어력 감소 스킬이 2개로 늘어나면서 물리 탱커를 쉽게 처리가능.
-                </p>
+                캬루가 여름을 즐기기 위해 몰래 준비한 튜브. 본인은 안정성이 좋아서 골랐다고 주장하지만 귀여움이 잔뜩 묻어난 디자인이라 진의가 의심스럽다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -77,15 +78,12 @@ export default function Kyaru() {
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/KyaruNewyear_back.png" alt="redive"/></div>
+            <div className="princess"><img src={newLocal_2} alt="redive"/></div>
             <h1>캬루(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>하정 고양이귀 하고이타 (섀도우 배럿 강화)</strong><br/>
-                    전용장비는 범한테 날개를 달아주듯이 안 그래도 사기적인 냐루의 입지를 더욱 넓혀주게 됐는데<br/>
-                    1스킬이 범위 공격으로 상향됐기 때문에 멀티타겟에서도 단일타겟과 거의 다름없을 만큼<br/>
-                    온전한 화력을 보여줄 수 있게 됐다.
-                </p>
+                나들이옷 차림의 캬루가 가진 특별주문 하고이타. 새로운 한 해의 복을 바라는 마음이 무수한 하네를 만들어내어, 온갖 재앙을 물리친다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -116,7 +114,7 @@ export default function Kyaru() {
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/KyaruPrincess_back.png" alt="redive"/></div>
+            <div className="princess"><img src={newLocal_3} alt="redive"/></div>
             <h1>캬루(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>

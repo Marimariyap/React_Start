@@ -1,9 +1,12 @@
 
 export default function Nozomi() {
+    const newLocal = "https://w.namu.la/s/96933c05feb4926359d6e7ad3b8222b5eb89a66309ee67fc99180362b83ecac93d8793eeccff9841db0d655d7388d8b24e73f06343c4e63693dc2482203dfa225f7ea246ae5c08d780f629eaef80a15d9a46e9d97c7a62de1d189decaa3fee25ecba5374def2d2533d285e93417918c2";
+    const newLocal_1 = "https://w.namu.la/s/867ad654f5ea759b7e77c981663274321c58fb6995e12cd640c29c07117f2601f845424c38ffb263a4b72765edfd5864af8b4f9f15023d21784ce60fee93f20630c00fbd7d503b8bf16c332467569431f266525eac95b816775905b65a0962f0515c21d140ceeec56e35ea7e082ccf8b";
+    const newLocal_2 = "img/RediveCharacter/NozomiChristmas_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Nozomi_back.png" alt="redive"/></div>
+          <div className="princess"><img src={newLocal} alt="redive"/></div>
 
           <h1>노조미 ⭐⭐⭐⭐⭐⭐</h1>
 
@@ -42,7 +45,7 @@ export default function Nozomi() {
 
 
           
-                <div className="princess"><img src="img/RediveCharacter/NozomiSummer_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
             <h1>노조미(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
@@ -76,7 +79,7 @@ export default function Nozomi() {
 
 
 
-                <div className="princess"><img src="img/RediveCharacter/NozomiChristmas_back.png" alt="redive"/></div>
+                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
             <h1>노조미(성탄절) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
