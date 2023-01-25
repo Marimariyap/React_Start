@@ -1,19 +1,17 @@
 
 export default function Rino() {
-    const newLocal = "https://w.namu.la/s/585b728604db59339b423b4547ac319f17ddac670147f143faa6f82eacc1157fbf0c80171aebb24314ca9610a92b74b9cbe3f6a2fed11be18c9a6273a62b25409d03bba02648b14a99127a7620398d9bd9f706bff79c791fa3a8bee661cffae8b8bd203c1d879841c721ac54ea28f671";
-    const newLocal_1 = "https://w.namu.la/s/5826fc9e64c5c0f348e5e17a4bc4af9f4d6f59682ca4c0d145d7e20c758446dbd1eaade7ad9ebcb6327f7bad3e587927461ea90d4a22c954d13d039264e572e6f34131c5f118c4b9517f5c6f0f57850e5f81568711db8cb9ca277f99f61b7f454626fa70ef3a4e043c63f8bcd3677a1f";
-    const newLocal_2 = "https://w.namu.la/s/f0c9681e8e507c4d65afaa1eeb6c07745aa7d775278c3f4f6f15ddf38a2f9291bf7e04a7b03325768e2a3f345a02ef3d0951dba27cb63aa67ec4b3bdf74e9b5085b988c7f312a526755fc951e8db0cd53692aac2385b81e300ae0d49d85f05e68fc753bef7776c18fc6f40a36d63b194";
+    const newLocal = "img/RediveCharacter/Rino_back.png";
+    const newLocal_1 = "img/RediveCharacter/RinoWonder_back.png";
+    const newLocal_2 = "img/RediveCharacter/RinoChristmas_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>리노 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>리노 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>프로미넌스 애로우 (컨센트레이션 강화)</strong><br/>
-                    전용장비를 받고 제법 쓰이는 빈도가 생겼었다.
-                </p>
+                선명, 강렬한 불꽃이 깃든 리노전용 마법화살. 정열적인 마음이 바로 불꽃의 근원이며 그 일격은, 싸움을 결정짓는 고위력을 자랑한다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -40,16 +38,16 @@ export default function Rino() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>리노(원더) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>리노(원더) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>원더랜드 보우 (원더 일루전 강화)</strong><br/>
-                    데미지 계수, 깡딜량은 그대로다. 즉, 데미지 차이가 없다.
-                </p>
+                신기한 책 속에서 앨리스의 힘을 얻은 리노의 활.
+앨리스와 마음이 통하는 것으로 구세주로서의 힘을 해방하고, 세계를 구원하는 일격을 가한다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -77,11 +75,11 @@ export default function Rino() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
-            <h1>리노(성탄절) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>리노(성탄절) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -113,7 +111,7 @@ export default function Rino() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

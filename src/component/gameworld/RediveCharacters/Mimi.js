@@ -1,13 +1,12 @@
 
 export default function Mimi() {
-    const newLocal = "https://w.namu.la/s/7cc5e7a0e0d95d0d3c8f36fca966877771f5157e6c532802ed2b52eb9c9538803f99c5249bde3d7e270cf152c3607ea01ca3a5dd157d1e7153c941b05e2babba4de962d08bf48936dd3755468c359c9f3d1f33458765541c7093c0f623aaae4aef698526d1a3aabf1b1ac598aff9954c";
-    const newLocal_1 = "https://w.namu.la/s/afbd2e97b8b144fb48c8ad127cef02566c9c8495742128c7820c7a2fa9279ba07592e964f43f7d5e804b9acd73633f193074c29a9df1a1df6cabb7ced3f2b84c46e310fda95830c70b7ce91247fe4f7817f3b3dfd28500b7ea80cbc1b73333dac68c935217012a306ed63555af67ee45";
+    const newLocal = "img/RediveCharacter/Mimi_back.png";
+    const newLocal_1 = "img/RediveCharacter/MimiGhost_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>미미 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>미미 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>토끼씨 블레이드 (뿅뿅 어택 강화)</strong><br/>
@@ -39,11 +38,11 @@ export default function Mimi() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>미미(할로윈) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>미미(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>빙글빙글 토끼씨 블레이드 (빙글빙글 어택 강화)</strong><br/>
@@ -74,7 +73,7 @@ export default function Mimi() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

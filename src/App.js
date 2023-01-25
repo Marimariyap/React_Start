@@ -12,6 +12,7 @@ import Archive from './component/gameworld/Archive';
 // my content
 import Countdown from './component/Countdown';
 import Exchangerate from './component/Exchangerate';
+import Movieseat from './component/Movieseat';
 
 // PrincessConnect
 import PrincessConnect from './component/PrincessConnect';
@@ -63,6 +64,49 @@ import Christina from "./component/gameworld/RediveCharacters/Christina";
 import Tomo from "./component/gameworld/RediveCharacters/Tomo";
 import Matsuri from "./component/gameworld/RediveCharacters/Matsuri";
 
+// 사렌디아 구호원
+import Saren from "./component/gameworld/RediveCharacters/Saren";
+import Suzumei from "./component/gameworld/RediveCharacters/Suzumei";
+import Ayane from "./component/gameworld/RediveCharacters/Ayane";
+import Kurumi from "./component/gameworld/RediveCharacters/Kurumi";
+
+// 카온 자경단
+import Maho from "./component/gameworld/RediveCharacters/Maho";
+import Macoto from "./component/gameworld/RediveCharacters/Macoto";
+import Kaori from "./component/gameworld/RediveCharacters/Kaori";
+import Casme from "./component/gameworld/RediveCharacters/Casme";
+
+// 엘리자베스 파크
+import Mahiru from "./component/gameworld/RediveCharacters/Mahiru";
+import Rima from "./component/gameworld/RediveCharacters/Rima";
+import Shiri from "./component/gameworld/RediveCharacters/Shiri";
+import Rin from "./component/gameworld/RediveCharacters/Rin";
+
+// 메르쿠리우스 재단
+import Akino from "./component/gameworld/RediveCharacters/Akino";
+import Mihuyu from "./component/gameworld/RediveCharacters/Mihuyu";
+import Yukari from "./component/gameworld/RediveCharacters/Yukari";
+import Tamaki from "./component/gameworld/RediveCharacters/Tamaki";
+
+// 트와일라이트 캐러밴
+import Luca from "./component/gameworld/RediveCharacters/Luca";
+import Mitsuki from "./component/gameworld/RediveCharacters/Mitsuki";
+import Erico from "./component/gameworld/RediveCharacters/Erico";
+import Nanaca from "./component/gameworld/RediveCharacters/Nanaca";
+import Anna from "./component/gameworld/RediveCharacters/Anna";
+
+// 루센트 학원
+import Io from "./component/gameworld/RediveCharacters/Io";
+import Misaki from "./component/gameworld/RediveCharacters/Misaki";
+import Suzuna from "./component/gameworld/RediveCharacters/Suzuna";
+
+// 바이스플뤼겔 랜드솔 지부
+import Monica from "./component/gameworld/RediveCharacters/Monica";
+import Yuki from "./component/gameworld/RediveCharacters/Yuki";
+import Ninon from "./component/gameworld/RediveCharacters/Ninon";
+import Cooca from "./component/gameworld/RediveCharacters/Cooca";
+import Ayumi from "./component/gameworld/RediveCharacters/Ayumi";
+
 
 function App() {
   return (
@@ -77,6 +121,7 @@ function App() {
           {/* my content */}
           <Route path='/countdown' element={<Countdown/>} />
           <Route path='/Exchangerate' element={<Exchangerate/>} />
+          <Route path='/Movieseat' element={<Movieseat/>} />
 
           {/* BlueArchive */}
           <Route path="/Blue Archive" element={<BlueArchive/>} />
@@ -132,6 +177,49 @@ function App() {
           <Route path='/redive Christina' element={<Christina/>} />
           <Route path='/redive Tomo' element={<Tomo/>} />
           <Route path='/redive Matsuri' element={<Matsuri/>} />
+
+          {/* 사렌디아 구호원 */}
+          <Route path='/redive Saren' element={<Saren/>} />
+          <Route path='/redive Suzumei' element={<Suzumei/>} />
+          <Route path='/redive Ayane' element={<Ayane/>} />
+          <Route path='/redive Kurumi' element={<Kurumi/>} />
+
+          {/* 카온 자경단 */}
+          <Route path='/redive Maho' element={<Maho/>} />
+          <Route path='/redive Macoto' element={<Macoto/>} />
+          <Route path='/redive Kaori' element={<Kaori/>} />
+          <Route path='/redive Casme' element={<Casme/>} />
+
+          {/* 엘리자베스 파크 */}
+          <Route path='/redive Mahiru' element={<Mahiru/>} />
+          <Route path='/redive Rima' element={<Rima/>} />
+          <Route path='/redive Shiri' element={<Shiri/>} />
+          <Route path='/redive Rin' element={<Rin/>} />
+
+          {/* 메르쿠리우스 재단 */}
+          <Route path='/redive Akino' element={<Akino/>} />
+          <Route path='/redive Mihuyu' element={<Mihuyu/>} />
+          <Route path='/redive Yukari' element={<Yukari/>} />
+          <Route path='/redive Tamaki' element={<Tamaki/>} />
+
+          {/* 트와일라이트 캐러밴 */}
+          <Route path='/redive Luca' element={<Luca/>} />
+          <Route path='/redive Mitsuki' element={<Mitsuki/>} />
+          <Route path='/redive Erico' element={<Erico/>} />
+          <Route path='/redive Nanaca' element={<Nanaca/>} />
+          <Route path='/redive Anna' element={<Anna/>} />
+
+          {/* 루센트 학원 */}
+          <Route path='/redive Io' element={<Io/>} />
+          <Route path='/redive Misaki' element={<Misaki/>} />
+          <Route path='/redive Suzuna' element={<Suzuna/>} />
+
+          {/* 바이스플뤼겔 랜드솔 지부 */}
+          <Route path='/redive Monica' element={<Monica/>} />
+          <Route path='/redive Yuki' element={<Yuki/>} />
+          <Route path='/redive Ninon' element={<Ninon/>} />
+          <Route path='/redive Cooca' element={<Cooca/>} />
+          <Route path='/redive Ayumi' element={<Ayumi/>} />
         </Routes>
       </BrowserRouter>
     </div>

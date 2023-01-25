@@ -1,13 +1,12 @@
 
 export default function Iriya() {
-    const newLocal = "https://w.namu.la/s/d470e8769202c8d2a66065ce39192825a30c63f5fdbcc0550a193c8a49ebfb81f2351745e430bc729c33b02211f90454bf3ff0cde0e0a00337a76d79c3910d0d649edce4a821496997d619bbadb2879d9f9949228efe149dabcaf62880b8053b1393a48974e53453a600fb955a4dd71e";
-    const newLocal_1 = "https://w.namu.la/s/20754029011bc4689544639578135dbfb9049eaa28f38b2807f68ad8bf2a8a0172d63b647e09689546fb8b44b6aae508f8c81d83b0b9b4f3de9449c3668a52e4bceb6f76c79405ae88924fa7e84184e2158e6f60e33b8e66b67778523f3e852f74cbe985c17cb9afd2b724ebaf33fafc";
+    const newLocal = "img/RediveCharacter/Iriya_back.png";
+    const newLocal_1 = "img/RediveCharacter/IriyaChristmas_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>이리야 ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>이리야 ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>암부 나흐트 팡 (블리딩 블래스트 강화)</strong><br/>
@@ -37,11 +36,11 @@ export default function Iriya() {
                     전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>이리야(성탄절) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>이리야(성탄절) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>성야부 노엘 팽 (배트 카니발 강화)</strong><br/>
@@ -75,7 +74,7 @@ export default function Iriya() {
                     전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

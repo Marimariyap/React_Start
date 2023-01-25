@@ -1,16 +1,16 @@
 
 export default function Kyaru() {
-    const newLocal = "https://w.namu.la/s/54eafafb45d45d0dada320f8c5e72b8676400d65881e706af770a9e1242bc22bdd4936e97c36e9be870befb129cdc4f82c23351e7c509cdc7ae70fcd19aa28736f353faaad7d9b803881ed706a2594c66486acbb27bc1ceb1b09116051b79d7d9457a265505492ff561bbface8cdcb59";
-    const newLocal_1 = "https://w.namu.la/s/ef08cfb4ff7b1fa6157d0d2b7014e473109657a581849c0aca2cf60190b990ef7585632b29ac3546e08a6bbf69dfbcdeddc0afe8e447517646153c59e30b39cd99e2a10ce216ccba147fc400118987f1ba8a72d4e3fbfbcc03e2682a7cd1ae8507324881578ada50498d0ae16203d70b";
+    const newLocal = "img/RediveCharacter/Kyaru_back.png";
+    const newLocal_1 = "img/RediveCharacter/KyaruSummer_back.png";
     const newLocal_2 = "img/RediveCharacter/KyaruNewyear_back.png";
-    const newLocal_3 = "https://w.namu.la/s/3f310b9aea9dec16681d28243bc1459e82d926461d7951f85db5e032136f4a0a71294c5eafb57fdf53057c3df44975307f1450abbd2c501d429ca16564da4c2598c0b6a734ebc2fa9e55ba280d63d87bfb696e79231a9adcd6ab047cd1e638e007a6670bf6d49a37c7ec085ac122ea80";
+    const newLocal_3 = "img/RediveCharacter/KyaruPrincess_back.png";
     return(
         <div className="container">
 
 
 
-            <div className="princess"><img src={newLocal} alt="redive"/></div>
-            <h1>캬루 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">            <h1>캬루 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>카오스 그리모어 (썬더 볼 강화)</strong><br/>
@@ -40,11 +40,11 @@ export default function Kyaru() {
                     전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>캬루(수영복) ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>캬루(수영복) ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>고양이 튜브 서머 플로트 (워터 배럿 강화)</strong><br/>
@@ -75,11 +75,11 @@ export default function Kyaru() {
                         전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src={newLocal_2} alt="redive"/></div>
-            <h1>캬루(새해) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>캬루(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>하정 고양이귀 하고이타 (섀도우 배럿 강화)</strong><br/>
@@ -111,11 +111,11 @@ export default function Kyaru() {
                         전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src={newLocal_3} alt="redive"/></div>
-            <h1>캬루(프린세스) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_3} alt="redive" className="character" />
+            <div className="well">            <h1>캬루(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -145,7 +145,7 @@ export default function Kyaru() {
                         전투 시작 시 자신의 마법 공격력 (대) 증가  
                     </li>
                 </ul>
-          
+          </div>
 
 
         </div>

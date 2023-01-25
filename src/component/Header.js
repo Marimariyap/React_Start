@@ -1,6 +1,11 @@
 import React, { useRef, useState } from 'react';
 import Login from './Login';
 import Navbar from './Navbar';
+import "./css/Header.css";
+import { FaBars } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";   
+import { IoGameController } from "react-icons/io5"; 
+
 
 export default function Header() {
   const toggleRef = useRef(null);
@@ -11,17 +16,17 @@ export default function Header() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  function closeNavbar(e) {
-    if (
-      isNavbarOpen &&
-      e.target !== toggleRef.current &&
-      !toggleRef.current.contains(e.target) &&
-      e.target !== navbarRef.current &&
-      !navbarRef.current.contains(e.target)
-    ) {
-      setIsNavbarOpen(false);
-    }
-  }
+  // function closeNavbar(e) {
+  //   if (
+  //     isNavbarOpen &&
+  //     e.target !== toggleRef.current &&
+  //     !toggleRef.current.contains(e.target) &&
+  //     e.target !== navbarRef.current &&
+  //     !navbarRef.current.contains(e.target)
+  //   ) {
+  //     setIsNavbarOpen(false);
+  //   }
+  // }
 
   return (
     <div className="header">
@@ -33,8 +38,10 @@ export default function Header() {
           setIsNavbarOpen(!isNavbarOpen);
         }}
       >
-        <i className="fa fa-bars fa-2x"></i>
+        <FaBars />
       </button>
+      <button id='tog' onClick={() => window.open("https://github.com/Marimariyap/React_Start")}><AiFillGithub /></button>
+      <button id='togg' onClick={() => window.open("https://www.op.gg/summoners/kr/%EB%A7%88%EB%A6%AC%EB%A7%88%EB%A6%AC%EC%96%8D?hl=ko_KR")}><IoGameController /></button>
       <h1>마리마리얍의 공간</h1>
       <p>지금은 공사중에요! 나중에 다시오세요!</p>
       <div className='but'>

@@ -1,13 +1,12 @@
 
 export default function Misogi() {
-    const newLocal = "https://w.namu.la/s/551dca446484c8ad74c3bdc59a8105f5bb8b09f92cb49d0b7264375712101bf98cace96017fd15a363cdda2d94d9f336101ba33427e4b7586506748fae3a68000711fa6239154e9eca37a287777eb9f0e75331761d1ea38ee6ac98bbc1e8a8a192f4058e0838f0ad17574a92c39f6c6f";
-    const newLocal_1 = "https://w.namu.la/s/3d6df40acde6b7b3372877f8d08847a1f8fab41cc9f1237b8698fc08a4b6575f3c26a016bf443dc4d750477f3bafd679adb640d02fda0c793d59fc760f2d49bafaf3b4e91f384b938734a8995eb4150d33b7d85242693b871ea9e6ed8e89aa91dcfc723ebbc11974f186797ba0d2d214";
+    const newLocal = "img/RediveCharacter/Misogi_back.png";
+    const newLocal_1 = "img/RediveCharacter/MisogiGhost_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>미소기 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>미소기 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>트릭 기프트 (잉크 슈터 강화)</strong><br/>
@@ -41,11 +40,11 @@ export default function Misogi() {
                         전투 시작 시 자신의 물리 방어력 (중) 증가, 자신의 물리 공격력 (소) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>미소기(할로윈) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>미소기(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>마권 트릭오어트릭(페인팅 킥 강화)</strong><br/></p>
@@ -75,7 +74,7 @@ export default function Misogi() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

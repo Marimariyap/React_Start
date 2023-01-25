@@ -1,13 +1,12 @@
 
 export default function Kyowoca() {
-    const newLocal = "https://w.namu.la/s/d94571f6c136cbe2b6e004cba0480491118c2048aaeaa6d2b5d98d57f8d225ea7307a5622482940ae867d1ef89ea1e98d8833aeb4dd871e17d80b0d126bad1c8c7c883ecd0f4910fba61db045568aa4db397fc5f2a193ee10a092b22827929908b0fa52269ba9e914c671d48d78a6643";
-    const newLocal_1 = "https://w.namu.la/s/1ca8125f945707d2b4be2c14d4bf72673b9bca904f6b3a6cff8c4a85d5e0e5e41080f7de201e66eab6b55a0e65043b6ac3e56b3fc003373a1eb0ff94ae814da0453e56bea8140befe9fa2ee409519883dc1befa2aba03df7171dcfa8b57842568ea46c984ec0a244c712bedcbb74e180";
+    const newLocal = "img/RediveCharacter/Kyowoca_back.png";
+    const newLocal_1 = "img/RediveCharacter/KyowocaGhost_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>쿄우카 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>쿄우카 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>코스모 블루 로드 (아이스 랜스 강화)</strong><br/>
@@ -38,11 +37,11 @@ export default function Kyowoca() {
                         전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>쿄우카(할로윈) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>쿄우카(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>할로윈 고양이씨 브룸 (매지컬 트릭 강화)</strong><br/>
@@ -72,7 +71,7 @@ export default function Kyowoca() {
                         전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

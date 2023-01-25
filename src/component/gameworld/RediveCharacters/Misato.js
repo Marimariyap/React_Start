@@ -1,13 +1,12 @@
 
 export default function Misato() {
-    const newLocal = "https://w.namu.la/s/914e39600ec41a7d4bd5d9725e76f5f6fc88196e2ce42a6f6058e673198d3ee07f0f466514855f2060bb9a666f203f3848008550452aabd6858e965a134b1974cd608cd28985df5561dd2204bcc05e6595cfb267effd88eb1cb6691309c4219135f67e9d177ac50b0fdd7c21eed418ed";
-    const newLocal_1 = "https://w.namu.la/s/17b386d533aeec4a6fb9120754724cc468ea1d63e519628a79910a1965a7b0ab1cbcf08b89d66f2c740eae29cbf2622572bf575901ee5c4d969f985f3455d7c108ea81c2ecd88c07872b08237099ac6cbd73848d85ef4283822ed7640875059ae48475f26eca9d76c551cc6a12a56276";
+    const newLocal = "img/RediveCharacter/Misato_back.png";
+    const newLocal_1 = "img/RediveCharacter/MisatoSummer_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>미사토 ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>미사토 ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>아가페 베일 (디바인 포스 강화)</strong><br/>
@@ -38,11 +37,11 @@ export default function Misato() {
                     전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>미사토(수영복) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>미사토(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>비치 비너스 메가폰 (힐링 드링크 강화)</strong><br/>
@@ -72,7 +71,7 @@ export default function Misato() {
                     전투 시작 시 자신의 마법 방어력 (중) 증가
 자신의 마법 공격력 (소) 증가                    </li>
                 </ul>
-
+</div>
 
 
         </div>

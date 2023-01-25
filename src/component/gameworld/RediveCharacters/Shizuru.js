@@ -1,19 +1,17 @@
 
 export default function Shizuru() {
-    const newLocal = "https://w.namu.la/s/9a392f50e874b4a5bcee758c936304edb499b37aa59550bb8392608da1b8c125768dd11235e10921531775317f80566ca4c9f592b63299bc260eb158dcca79fd20ccf6de60922e9758f8f1fa1d91faebfd6b2509bc88185ebaffbfecbdf0ad576c74e44e812f99a581beff64ec03cb5d";
-    const newLocal_1 = "https://w.namu.la/s/75d7794ddb4b1f5dcc58b66467dc36bd1112be57d46e1e226fb4983ecbfb7e648e47499925fbdc74926f78d0342f918a38da484dfecf6dca280758419bfff61263b3ee3de908166f9c00c7d4e72662b36fef1312d6a6d3fea536e37cbae57a36d514493b0072217048974ae2468e2065";
-    const newLocal_2 = "https://w.namu.la/s/8f7447411f3f2872e9271afbc8b6db69a5f5fe704d0e7ba1659972e83af948e355a9594591fcba1eaed5526521e2ec758c1040ab46ade04c208935d094860a768d39dc78072be181973acd0648a5fca81135310126c0ee62694a7dc5d6c808061d50d0cc0e43ec6cda6882fc39a899fe";
+    const newLocal = "img/RediveCharacter/Shizuru_back.png";
+    const newLocal_1 = "img/RediveCharacter/ShizuruSummer_back.png";
+    const newLocal_2 = "img/RediveCharacter/ShizuruValentine_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>시즈루 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>시즈루 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>세이크리드 블레이드 (세인트 힐 강화)</strong><br/>
-                    회복력증가와 물방, 힐스킬 강화가 붙는 괜찮은 성능.
-                </p>
+                시즈루가 애용하는 십자검. 약한 자를 구하길 바라는 고귀한 영혼이 검에 깃들었을 때 방어 술식이 발동하여 대상을 수호한다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -41,11 +39,11 @@ export default function Shizuru() {
                         전투 시작 시 자신의 물리 방어력 (중) 증가, 자신의 물리 공격력 (소) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>시즈루(수영복) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>시즈루(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -78,11 +76,11 @@ export default function Shizuru() {
                         전투 시작 시 자신의 물리 방어력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
-            <h1>시즈루(발렌타인) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>시즈루(발렌타인) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>데코레이션 하트 (큐어니스 사인 강화)</strong><br/>
@@ -92,8 +90,7 @@ export default function Shizuru() {
             <h2>소개</h2>
                 <p>
                     <strong>【물리】</strong>중열에서 모두를 지키는 파티시에르 누나.<br/>
-                        여러 파라미터가 동시에 상승하는 필드 전개. 또한 효과 시간 중에는 스킬 효과가 대폭 강화한다.
-                </p>
+                    소중한 동생 군에게 맛있는 초코를 만들어주기 위해, 시즈루가 착용한 모자. 하트 장식에서 넘쳐나는 달콤한 향기가 동료에게 사랑과 안식을 준다.                </p>
 
             <h2>스킬</h2>
                 <ul>
@@ -115,7 +112,7 @@ export default function Shizuru() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

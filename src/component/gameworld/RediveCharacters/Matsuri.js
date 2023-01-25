@@ -1,13 +1,12 @@
 
 export default function Matsuri() {
-    const newLocal = "https://w.namu.la/s/828be7af32576da6098d434cb674b0f23d6290390f589c61c5540b91527795f3fc3ca61c6a9bac6a905399338e65419c13befdf9e434c2be7596dba70b0b2b09712e0ea6d1781094aa514fafef95992408248f8e5117b9b1350050c99a1ef333f0a5f5d4f689a5e7dbf510d0ff064e5d";
-    const newLocal_1 = "https://w.namu.la/s/49d496e64b7a8e9af3b74702c8039e5203162704db1de900668514212756189f5767bf985b730022f422c66a95de8d6cbe31117ce21bb47d51fcace82f0e435ab285e14552d87d244bcbd97123969d402d4a4ea3a3613fe8a83cd6c8ed976639";
+    const newLocal = "img/RediveCharacter/Matsuri_back.png";
+    const newLocal_1 = "img/RediveCharacter/MatsuriGhost_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>마츠리 ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>마츠리 ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>저스티스 메달 (타이거 쇼크 강화)</strong><br/>
@@ -35,11 +34,11 @@ export default function Matsuri() {
                     전투 시작 시 자신의 물리 공격력 (중) 증가
 자신의 물리 방어력 (소) 증가                    </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>마츠리(할로윈) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>마츠리(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>화이트 타이거 폼 (할로우 타이거 클로 강화)</strong><br/>
@@ -72,7 +71,7 @@ export default function Matsuri() {
                     전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

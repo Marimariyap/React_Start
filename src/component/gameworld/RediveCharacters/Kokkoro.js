@@ -1,17 +1,17 @@
 
 export default function Kokkoro() {
-    const newLocal = "https://w.namu.la/s/9e0f6dc7d4a99fe398da6408eacd752d386cac9e53e4f12407fa643dd1c0f0b635ec19b6cb190834b4db2dbfd9a3e220f3a2ffd5f46be765f6a05ab579e1a48532413cb6907070888fd5a0b25a80ab8c6c843c9719cc67a7d022d06306f0175c646b567a418b4b37aec0951079f20710";
-    const newLocal_1 = "https://w.namu.la/s/8fac0303d9d34aad429e3e2bd78ce8abb68054a86fa312b6a15bd638de3b46f28a4aaa4db3cff9b276c3a0d21982b3bdcfa931df0856018deb3a89c7cdf39da24eadb3e2e9a672ddb63b3eb5c0b534a73a89c3133e9f7d7113f387890df326b5de1901f2474e58523014c96181dfb7f2";
-    const newLocal_2 = "https://w.namu.la/s/e9db2646b405e37ac35b0175cee30bbf2d5d445335515924eee503cbbbc4263908d9c1abcd2ce1592c891b6550e2f0311d25a6ceacad2d25b35d991b192dffded36801614f9eb431b3a27e16c0131a6fc578074da6c24fca7ce3360634ddd84bbea8a3280e1179c4367be00a2e8fc7b6";
-    const newLocal_3 = "https://w.namu.la/s/0a9bf35a278ebc4c5a4e9ffdac2f22c4423a4622147cac561204a9ad7310035cb6c986998feddbfd66ec80a8c09bdbcfa5217f2cfe788a9307d6056422cc198cbc5b1973b892a7081b8bee166a2de07184c32f97a2d088ec3c14eb9961d916118d757f8467c58a8b755e735dab5f86b1";
-    const newLocal_4 = "https://w.namu.la/s/24830bdcdde33773290b1ced42d538d0c03b0446c0274b9ce42ae229899fe00dd34612ed7cb1aa9decaaa73b506536e7002d0797769924a4c63b1330bac4a3743c5a49d57e984499e94a4f825e4b6123b77be37bf45b380a1ecb76103ccb8da0364f4836a43d031ce52ba9d11c522bc4";
+    const newLocal = "img/RediveCharacter/Kokkoro_back.png";
+    const newLocal_1 = "img/RediveCharacter/KokkoroSummer_back.png";
+    const newLocal_2 = "img/RediveCharacter/KokkoroNewyear_back.png";
+    const newLocal_3 = "img/RediveCharacter/KokkoroPrincess_back.png";
+    const newLocal_4 = "img/RediveCharacter/KokkoroDress_back.png";
     return(
         <div className="container">
 
 
 
-            <div className="princess"><img src={newLocal} alt="redive"/></div>
-            <h1>콧코로 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">            <h1>콧코로 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>아메스 아뮬렛 (정령의 계시 강화)</strong><br/>
@@ -43,11 +43,11 @@ export default function Kokkoro() {
                         전투 시작 시 자신의 물리 공격력 (중) 증가, 자신의 마법 방어력 (소) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>콧코로(수영복) ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>콧코로(수영복) ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>양창 아쿠아 스쿼시 (네레이드 스피어 강화)</strong><br/>
@@ -80,11 +80,11 @@ export default function Kokkoro() {
                         전투 시작 시 자신의 마법 방어력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src={newLocal_2} alt="redive"/></div>
-            <h1>콧코로(새해) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>콧코로(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>신춘기행의 정령장 (스피릿 월 강화)</strong><br/>
@@ -117,11 +117,11 @@ export default function Kokkoro() {
                         전투 시작 시 자신의 물리 방어력 (대) 증가   
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src={newLocal_3} alt="redive"/></div>
-            <h1>콧코로(프린세스) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_3} alt="redive" className="character" />
+            <div className="well">            <h1>콧코로(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -151,11 +151,11 @@ export default function Kokkoro() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가   
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src={newLocal_4} alt="redive"/></div>
-            <h1>콧코로(의장복) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_4} alt="redive" className="character" />
+            <div className="well">            <h1>콧코로(의장복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>대정령의 의식검 (춘질풍 강화)</strong><br/>
@@ -188,7 +188,7 @@ export default function Kokkoro() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가   
                     </li>
                 </ul>
-
+</div>
 
                 
         </div>

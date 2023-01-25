@@ -1,14 +1,13 @@
 
 export default function Hiyori() {
-    const newLocal = "https://w.namu.la/s/00eb6cf1174cf2e0f23c7e7a592171531e0631db37adafb08c59ffd19178b8418e13f502f2c062e1f154fbc825fb715e5b1aa2e15d981e698af29d02fc3c249788a162e570d34798e8a4221118cb794d7c9bd7e561301132e5698a1f02cfc50c34683db974754495a38bdd59812c8562";
-    const newLocal_1 = "https://w.namu.la/s/b824c64353fc77053f2351154211b8df402dcaf9f91c79e69821d29321dbae63a0d4901af46815d08f86d093691fffa99b52eafa0dc301aff8930f1b1e3a6dd2be7907fec17e0f5cc765e860e92ec8919945d58e27f49c2c015d954b20cf549a0210584e64de717b76d6b1b899cce50b";
-    const newLocal_2 = "https://w.namu.la/s/960c1907fffeb5d8ba4928c9939bf89d53c41dcc9c93fbdb3c52f7cf1aa31ebdcc10624622a20bdd0808fae699e09f1b4919c2893aea4d929941b6a34c7716c49d046e89f8a5947b14b58433792bb5724277a974dcecb1862621c05c368aed49f2e4c137b6989ee85f454da1fd325876";
+    const newLocal = "img/RediveCharacter/Hiyori_back.png";
+    const newLocal_1 = "img/RediveCharacter/HiyoriNewyear_back.png";
+    const newLocal_2 = "img/RediveCharacter/HiyoriPrincess_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>히요리 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>히요리 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>냥피언 벨트 (캣 스트라이크 강화)</strong><br/>
@@ -39,11 +38,11 @@ export default function Hiyori() {
                     </li>
                     <p/>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>히요리(새해) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>히요리(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>묘명신 냥피스트 (젤리 차지 강화)</strong><br/>
@@ -74,11 +73,11 @@ export default function Hiyori() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
-            <h1>히요리(프린세스) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>히요리(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -109,7 +108,7 @@ export default function Hiyori() {
                     자신의 물리 공격력 (대) 증가   
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

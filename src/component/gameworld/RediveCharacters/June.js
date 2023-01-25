@@ -1,13 +1,12 @@
 
 export default function June() {
-    const newLocal = "https://w.namu.la/s/9aee2cc5c4bfeccd9cde794858c9621de9502a1ef527987d82024c9abd1ab2755f3fd25fe15cb6f11c0f8c963ac9c314bf4ccb9ec2278ce84d8ad774ac4338d1876f84d6cfbbbcee363a3c33b06eb4898c390c691294b5ab8787732c2f50dc71d329e2282eb8f3e0b64d33ee2dea2f78";
-    const newLocal_1 = "https://w.namu.la/s/a29d81cf8d4a9c349f9a21af9ce0cc15c195527410d6ef3fd0182209f1db0694bf43b25cb5872742cd6f578b0fcf0dcd1dc29e39c0e44fa4b111bfcb150d961763051389f16c51fba9a1f490d73a9c30ec69c0fe9d76df441a640c162b3029b6ffa46d4ec01215a5a5cb8d7640143180";
+    const newLocal = "img/RediveCharacter/June_back.png";
+    const newLocal_1 = "img/RediveCharacter/JuneSummer_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>쥰 ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>쥰 ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>슈발리에 메일 (브레이브 리커버리 강화)</strong><br/>
@@ -37,11 +36,11 @@ export default function June() {
                     전투 시작 시 자신의 마법 방어력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>쥰(수영복) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>쥰(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>서머 슈발리에 소드 (히트 스파이크 강화)</strong><br/>
@@ -73,7 +72,7 @@ export default function June() {
                     전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

@@ -1,20 +1,17 @@
 
 export default function Tumugi() {
-    const newLocal = "https://w.namu.la/s/00534675577a6e4841f065a634d9b53409b280828ea3926985487100896f9a2f4f6a36152111c145d4f3bf90f9bd03757111aefee37776608d161ad362e2d4acef145f429cdaa66a1ce38fd722cfc5aab76f69c6d7beeb16a0cc0af34702d180cd4c6306da4f53b076e040f29304398c";
-    const newLocal_1 = "https://w.namu.la/s/9a65226c08b45e2afaa509bc68980e4a67d04b1dfb691f713afe264e79b9261570c30eccd6bdecbfdad78568065652697070f2723d0192c6516501d85d38625e9d8d79d72cf2f67d3751467710f57aca1533dd18b61655ea9938e3d53cae48e6ef03c9653ff9006e2e3925749b41db2d";
-    const newLocal_2 = "https://w.namu.la/s/faf3ee7e23e336fb2b34fea45b7a9ea18f39e0b43a4a1a0c931300f53a76f758f163328129579038d117b9026fc14f1077ae84c094009c96c7afdeedb286dc328b3fd72fe05577b20d68edd84646d6f10565a1a7a973c90c0900c329d8b380ce87a271991bafb4d9c2a0a025e8a89013";
+    const newLocal = "img/RediveCharacter/Tumugi_back.png";
+    const newLocal_1 = "img/RediveCharacter/TumugiSummer_back.png";
+    const newLocal_2 = "img/RediveCharacter/TumugiGhost_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>츠무기 ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>츠무기 ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>하이 쿠튀리에 벨트 (캡쳐 스트링 강화)</strong><br/>
-                    장비 자체의 스탯으로 좀 더 튼튼해지고<br/>
-                    공격력 버프의 효과로 UB를 통해 딜러들의 체력을 깎아먹는 능력이 더욱 강화되었다.
-                </p>
+                츠무기가 착용하고 있는, 실패를 격납한 특제 포터블 벨트. 실패에서 빠르게 뽑혀진 마법의 실이 적을 묶어올려, 눈 깜짝할 새에 의식을 빼앗는다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -42,11 +39,11 @@ export default function Tumugi() {
                         전투 시작 시 자신의 물리 방어력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>츠무기(수영복) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>츠무기(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -77,16 +74,15 @@ export default function Tumugi() {
                         전투 시작시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
-            <h1>츠무기(할로윈) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>츠무기(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>할로윈 나이트 드레스 (테일러드 할로윈 강화)</strong><br/>
-                    성능에 큰 변화가 없어서 아쉽다는 평가가 다수.
-                </p>
+                흡혈귀를 상징화시킨 츠무기의 수제 드레스. 쿨과 큐트를 양립한 매콤달콤 코디를 통해 공격적인 자세를 어필한다                </p>
 
             <h2>소개</h2>
                 <p>
@@ -113,7 +109,7 @@ export default function Tumugi() {
                         전투 시작 시 자신의 물리 방어력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

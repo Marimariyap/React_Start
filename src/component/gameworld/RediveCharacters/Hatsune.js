@@ -1,13 +1,12 @@
 
 export default function Hatsune() {
-    const newLocal = "https://w.namu.la/s/507d56989324cd5edaf1cbf7f2c1076b02f00ee7f52b4054b2ffaee628902c9c52b35471f83c4a95a2c328d53b3897b618916203f8c3851f506d4034b6dfc9f4d3d72f3bb6e6141981a11b4b246b8f79604c8fe434aadef66507bea05143bb338e3282bc43d08ac48de22817a667468f";
-    const newLocal_1 = "https://w.namu.la/s/6ff7aab7d3e02f29e71cdab574ac57eafb33e55e951e9fa8f4edcbfcbf906865ec5f6a2467941c0d0800529ff6a3910762c6cf3d9a7755a1f94f75cf206b0bcf8833a4b1b7cb9b192205ef91981633d483c312becd9e32adf8101a7080af600d";
+    const newLocal = "img/RediveCharacter/Hatsune_back.png";
+    const newLocal_1 = "img/RediveCharacter/HatsuneSummer_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>하츠네 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>하츠네 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>미티어☆리본 (사이코☆블래스트 강화)</strong><br/>
@@ -38,11 +37,11 @@ export default function Hatsune() {
                     전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>하츠네(수영복) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>하츠네(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>글리터 스타즈 ☆ 퐁퐁 (퐁퐁 에일☆슛 강화)</strong><br/>
@@ -75,7 +74,7 @@ export default function Hatsune() {
                     전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

@@ -1,12 +1,11 @@
 
 export default function Ravirins() {
-    const newLocal = "https://w.namu.la/s/53eb3c5f5e5e04c7641d52478d6a9a5711ca703c73a6179825acae2b91760e25c163d387f50b53445eeef74f429fa9bb959e4e43b2ec493804c03047e84dbc8e798e9cf1f83d5be169f4a6a64a8ae4486d6a0a0ec76fe5937332bd3dcac39237b19675efcc8e2367a4ea255c28370ed8";
+    const newLocal = "img/RediveCharacter/Ravirins_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>라비리스타 ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>라비리스타 ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -54,9 +53,8 @@ export default function Ravirins() {
                         </ol>
                         <p/>
                     </li>
-
                 </ul>
-
+</div>
 
 
         </div>

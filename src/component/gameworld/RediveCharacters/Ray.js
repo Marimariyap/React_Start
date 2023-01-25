@@ -1,20 +1,18 @@
 
 export default function Ray() {
-    const newLocal = "https://w.namu.la/s/36780f73c6f306a4f54eca390b4c7c694d477714957c287e146495ea7859435c4baa9442026c37ca1e304ef20c9fd7d20e4f0aad04d15d0cfb3004889f807fa697bab05c01f71e8c4e555d7af8e6830453a2379cb6dbddb6c171689c6cdf12f075e76ea4335705a2337cf1dddb81db0d";
-    const newLocal_1 = "https://w.namu.la/s/50f3efa953bfbc67f83f52a4b8dc7b1a2710c0965f1712b8a8eefd81f5606b565221f4e7cfa7ce15a40471e5453c8a463d192ddc74528c9f5eeed8daaf0363e14b041e2931f520e055686f4b137c4ba974319397f0eedee20ed6d48b0d2e8f4f8f2d53ef13eb05595012dd1dde863569";
-    const newLocal_2 = "https://w.namu.la/s/2c6bcf6158b2723a8cc70c3b71a3d31be36ef31b7321150c775ac96c378f19c7ed46a7303c3b1820c1ab226d8b0f53438c6b9961948bce0c4905ff847ceebb395fe89ce23a3b2a3a1bea4d3806de2e5b7ee44fefcc47a29e02fe1f544fe45acc13ad1d03abbebcd8f4a87c4f7e96dc7d";
-    const newLocal_3 = "https://w.namu.la/s/bd6715f2e98a3965dcf38849c7a670e1114fc0290e58c60467e1d0b6865cb3a44caeb8cdd176be18904eb87a2c28062da119f38b09e005e6dad967d47cb29e2818b460ca61d23a868ca7c48c1bb30c698eb0ac35e79ca1da2aefeb29b023f69cb12c3232264e8842fb3a09e040f2c4ec";
+    const newLocal = "img/RediveCharacter/Ray_back.png";
+    const newLocal_1 = "img/RediveCharacter/RayNewyear_back.png";
+    const newLocal_2 = "img/RediveCharacter/RayPrincess_back.png";
+    const newLocal_3 = "img/RediveCharacter/RayGhost_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src={newLocal} alt="redive"/></div>
-
-          <h1>레이 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>레이 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>게일 글러브 (윈드 쓰러스트 강화)</strong><br/>
-                    물리팟이 당연히 써야되는 인권급 딜러로 환골탈태했다.
-                </p>
+                레이가 애용하고 있는 글러브. 이 공방일체의 글러브로 행하는 찌르기는, 앞을 가로막는 어떤 적이라도 꿰뚫는다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -40,17 +38,15 @@ export default function Ray() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src={newLocal_1} alt="redive"/></div>
-            <h1>레이(새해) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>레이(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>빙려도・초화 (눈사태 베기 강화)</strong><br/>
-                    전용장비 만으로 400을 넘는 마법 방어력을 확보할 수 있게 되어서<br/>
-                    기존처럼 허무하게 녹아내리는 경우는 벗어났다.
-                </p>
+                연초에 신을 맞이하는 일에 사용되던 최상의 한 자루. 얼음같이 차갑고 아름다운 도신은, 깊은 밤의 어둠이나 불길한 번뇌조차 일도양단한다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -78,11 +74,11 @@ export default function Ray() {
                         전투 시작 시 자신의 마법 방어력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src={newLocal_2} alt="redive"/></div>
-            <h1>레이(프린세스) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>레이(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -115,17 +111,15 @@ export default function Ray() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src={newLocal_3} alt="redive"/></div>
-            <h1>레이(할로윈) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_3} alt="redive" className="character" />
+            <div className="well">            <h1>레이(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>뷰티 할로우 (할로우 쓰러스트 강화)</strong><br/>
-                    데미지의 증가폭이 생각보다 커서 본인 딜이 전체적으로 오르긴 했으나<br/>
-                    여전히 50%미만의 멀티타겟에서만 사용되는 점은 아쉬운 편.
-                </p>
+                츠무기가 만든 레이 전용 드레스. 곳곳에 있는 장식에 레이의 검술이 방해받지 않도록, 기능성도 갖추고 있는 완벽한 할로윈 의상.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -152,6 +146,10 @@ export default function Ray() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
+
+
+
         </div>
     )
 }
