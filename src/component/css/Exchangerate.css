@@ -1,5 +1,4 @@
-
-.btn{
+.btn {
   color: #fff;
   background-color: var(--primary_color);
   cursor: pointer;
@@ -9,24 +8,24 @@
   border: none;
 }
 
-.rate_main{
+.rate_main {
   text-align: center;
   margin: 20px;
 }
 
-.rate_main .money_img{
+.rate_main .money_img {
   width: 150px;
   height: 150px;
 }
 
-.currency{
+.currency {
   padding: 40px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.currency select{
+.currency select {
   padding: 10px 20px 10px 10px;
   border: 1px solid #dedede;
   font-size: 16px;
@@ -36,20 +35,20 @@
   background-repeat: no-repeat;
 }
 
-.currency input{
+.currency input {
   border: 0;
   background: transparent;
   font-size: 20px;
   text-align: right;
 }
 
-.swap_rate{
+.swap_rate {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.rate{
+.rate {
   color: var(--primary_color);
   font-size: 14px;
   padding: 0 10px;

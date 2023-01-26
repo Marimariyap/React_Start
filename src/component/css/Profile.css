@@ -1,6 +1,6 @@
 /* Profile */
 
-.big_Box{
+.big_Box {
   width: 500px;
   background-size: 500px 1000px;
   background-repeat: no-repeat;
@@ -18,34 +18,33 @@
   padding: auto;
   justify-content: center;
   align-items: center;
-
 }
 
-.pro_Box h1{
+.pro_Box h1 {
   margin: 50px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   justify-content: center;
   color: gray;
 }
 
-.pro_Box p{
+.pro_Box p {
   margin: 30px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   justify-content: center;
   color: gray;
   font-size: 30px;
 }
 
-.profile{
+.profile {
   margin-top: 20px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   justify-content: center;
 }
 
-.im{
+.im {
   text-align: center;
   color: gray;
   font-size: 30px;
