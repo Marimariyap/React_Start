@@ -37,6 +37,11 @@
   width:100px;
   height:100px;
   margin: 10px;
+  transition: all 1s;
+}
+.container .princess_icon #prin > li > a > img:hover {
+  transform:scale(1.2);
+  transition: all 1s;
 }
 
 .container .princess_icon #prin > li > a > span {
@@ -47,3 +52,4 @@
   white-space:nowrap;
   transform:translate(-50%, 0);
 }
+

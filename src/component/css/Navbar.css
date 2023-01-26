@@ -9,7 +9,7 @@ nav {
     width: 200px;
     height: 100%;
     z-index: 1;
-    transform: translateX(-1);
+    transform-origin : 0 100% 0 scaleX(2);
     padding: left 50px;
   }
   
@@ -23,6 +23,11 @@ nav {
     width: 70px;
     border-radius: 50%;
     margin-top: 40px;
+    transition: all 1s;
+  }
+  nav .logo img:hover {
+    transform: scale(1.3);
+    transition: all 1s;
   }
   
   nav ul {
