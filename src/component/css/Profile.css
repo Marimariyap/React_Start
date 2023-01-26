@@ -1,13 +1,12 @@
 /* Profile */
 
 .big_Box{
-  width: 100%;
-  height: 600px;
-  background-color: #e6ebcb;
-  align-items: center;
-  justify-content: center;
+  width: 500px;
+  background-size: 500px 1000px;
+  background-repeat: no-repeat;
+  background-position: center center;
   text-align: center;
-  border-radius: 25px;
+  margin: auto;
 }
 
 .pro_Box img {
@@ -27,7 +26,7 @@
   text-align: center;
   font-family: 'Lato', sans-serif;
   justify-content: center;
-  color: #fff;
+  color: gray;
 }
 
 .pro_Box p{
@@ -35,7 +34,7 @@
   text-align: center;
   font-family: 'Lato', sans-serif;
   justify-content: center;
-  color: #fff;
+  color: gray;
   font-size: 30px;
 }
 
@@ -48,7 +47,8 @@
 
 .im{
   text-align: center;
-  color: #fff;
+  color: gray;
   font-size: 30px;
   margin-top: 30px;
+  height: 500px;
 }

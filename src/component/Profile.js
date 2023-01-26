@@ -3,7 +3,7 @@ import "./css/Profile.css";
 export default function Profile() {
     return(
         <div className="container">
-            <div className="big_Box">
+            <div className="big_Box" style={{ backgroundImage: `url("img/Main/KakaoTalk_20230126_163408497.jpg")`}}>
                 <div className="pro_Box">
                     <div className="profile">
                         <h1>나의 프로필</h1>
