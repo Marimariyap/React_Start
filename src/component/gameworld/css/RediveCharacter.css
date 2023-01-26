@@ -1,0 +1,55 @@
+.container .princess_icon .rediveH1{
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.container .princess_icon h2{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container .princess_icon p{
+  font-size: 5px;
+  margin: 25px;
+  margin-bottom: 100px;
+}
+
+.container .princess_icon a{
+  color: black;
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.container .princess_icon #prin > li {
+  display: inline-block;
+  position: relative;
+}
+
+.container .princess_icon #prin > li > a {
+  display:block; 
+  position:relative; 
+  padding-bottom:25px;
+  margin: 10px;
+}
+
+.container .princess_icon #prin > li > a > img {
+  width:100px;
+  height:100px;
+  margin: 10px;
+  transition: all 1s;
+}
+.container .princess_icon #prin > li > a > img:hover {
+  transform:scale(1.2);
+  transition: all 1s;
+}
+
+.container .princess_icon #prin > li > a > span {
+  position:absolute;
+  bottom:0; left:50%;
+  color:#666;
+  line-height:1.462em;
+  white-space:nowrap;
+  transform:translate(-50%, 0);
+}
+

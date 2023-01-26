@@ -1,16 +1,18 @@
 
 export default function Ray() {
+    const newLocal = "img/RediveCharacter/Ray_back.png";
+    const newLocal_1 = "img/RediveCharacter/RayNewyear_back.png";
+    const newLocal_2 = "img/RediveCharacter/RayPrincess_back.png";
+    const newLocal_3 = "img/RediveCharacter/RayGhost_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Ray_back.png" alt="redive"/></div>
-
-          <h1>레이 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>레이 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>게일 글러브 (윈드 쓰러스트 강화)</strong><br/>
-                    물리팟이 당연히 써야되는 인권급 딜러로 환골탈태했다.
-                </p>
+                레이가 애용하고 있는 글러브. 이 공방일체의 글러브로 행하는 찌르기는, 앞을 가로막는 어떤 적이라도 꿰뚫는다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -36,17 +38,15 @@ export default function Ray() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src="img/RediveCharacter/RayNewyear_back.png" alt="redive"/></div>
-            <h1>레이(새해) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>레이(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>빙려도・초화 (눈사태 베기 강화)</strong><br/>
-                    전용장비 만으로 400을 넘는 마법 방어력을 확보할 수 있게 되어서<br/>
-                    기존처럼 허무하게 녹아내리는 경우는 벗어났다.
-                </p>
+                연초에 신을 맞이하는 일에 사용되던 최상의 한 자루. 얼음같이 차갑고 아름다운 도신은, 깊은 밤의 어둠이나 불길한 번뇌조차 일도양단한다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -74,11 +74,11 @@ export default function Ray() {
                         전투 시작 시 자신의 마법 방어력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src="img/RediveCharacter/RayPrincess_back.png" alt="redive"/></div>
-            <h1>레이(프린세스) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>레이(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -111,17 +111,15 @@ export default function Ray() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/RayGhost_back.png" alt="redive"/></div>
-            <h1>레이(할로윈) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_3} alt="redive" className="character" />
+            <div className="well">            <h1>레이(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>뷰티 할로우 (할로우 쓰러스트 강화)</strong><br/>
-                    데미지의 증가폭이 생각보다 커서 본인 딜이 전체적으로 오르긴 했으나<br/>
-                    여전히 50%미만의 멀티타겟에서만 사용되는 점은 아쉬운 편.
-                </p>
+                츠무기가 만든 레이 전용 드레스. 곳곳에 있는 장식에 레이의 검술이 방해받지 않도록, 기능성도 갖추고 있는 완벽한 할로윈 의상.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -148,6 +146,10 @@ export default function Ray() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
+
+
+
         </div>
     )
 }

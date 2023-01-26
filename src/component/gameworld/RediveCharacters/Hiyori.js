@@ -1,16 +1,17 @@
 
 export default function Hiyori() {
+    const newLocal = "img/RediveCharacter/Hiyori_back.png";
+    const newLocal_1 = "img/RediveCharacter/HiyoriNewyear_back.png";
+    const newLocal_2 = "img/RediveCharacter/HiyoriPrincess_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Hiyori_back.png" alt="redive"/></div>
-
-          <h1>히요리 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>히요리 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>냥피언 벨트 (캣 스트라이크 강화)</strong><br/>
-                    PVE 물리 딜러 멀티타겟으로선 여전히 입지가 존재하는 편.
-                </p>
+                히요리가 착용하는 벨트. 용맹한 짐승이 노려보는 버클은 투쟁본능을 고무시키고, 그 주먹에 한층 더 강력한 힘을 부여한다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -37,16 +38,15 @@ export default function Hiyori() {
                     </li>
                     <p/>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src="img/RediveCharacter/HiyoriNewyear_back.png" alt="redive"/></div>
-            <h1>히요리(새해) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>히요리(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>묘명신 냥피스트 (젤리 차지 강화)</strong><br/>
-                    자버프가 빈약한 물리 어태커들의 딜량을 끌어올릴 수 있는 고성능 딜포터로 탈바꿈 시킨다.
-                </p>
+                고양이와 연이 있는 신사에 바쳐져있던 유서 깊은 농수. 장착자에게 승리를 가져다 준다 하며, 히요리의 바른 마음과 호응해 그 이익은 절대적이다.                </p>
                 
             <h2>소개</h2>
                 <p>
@@ -73,11 +73,11 @@ export default function Hiyori() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src="img/RediveCharacter/HiyoriPrincess_back.png" alt="redive"/></div>
-            <h1>히요리(프린세스) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>히요리(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -108,7 +108,7 @@ export default function Hiyori() {
                     자신의 물리 공격력 (대) 증가   
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

@@ -1,17 +1,16 @@
 
-export default function Cheeka() {
+export default function Misogi() {
+    const newLocal = "img/RediveCharacter/Misogi_back.png";
+    const newLocal_1 = "img/RediveCharacter/MisogiGhost_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Misogi_back.png" alt="redive"/></div>
-
-          <h1>미소기 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>미소기 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>트릭 기프트 (잉크 슈터 강화)</strong><br/>
-                    맞을 때마다 디버프 수치가 중첩되기 때문에<br/>
-                    상대의 전열 물리 딜러는 전투가 길어질수록 쿠우카만도 못한 공격력으로까지 추락하게 된다.
-                </p>
+                미소기가 최고걸작이라 자부하는 깜짝상자. 애들 장난이라 얕보지 말라, 외견의 임팩트와 충격음으로 적의 간도 떨어뜨릴 게 틀림없다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -41,17 +40,15 @@ export default function Cheeka() {
                         전투 시작 시 자신의 물리 방어력 (중) 증가, 자신의 물리 공격력 (소) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src="img/RediveCharacter/MisogiGhost_back.png" alt="redive"/></div>
-            <h1>미소기(할로윈) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>미소기(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>마권 트릭오어트릭(페인팅 킥 강화)</strong><br/></p>
-                    아레나 관련 능력치가 많아 물리 파티를 상대할 때 상당히 우수한 디버퍼 겸 광역 딜러 역할을 수행할 수 있다.<br/>
-                    그러나 스킬 공격력이 변하지 않는 점이 유일한 흠이다.
-            <h2>소개</h2>
+                할로윈을 위해 미소기가 자신만만하게 준비한 장난용 토시. 높은 강도와 정밀성이 양립하여, 어떤 장난도 확실하게 칠 수 있다.            <h2>소개</h2>
                 <p>
                     <strong>【물리】</strong>전열에서 범위 공격을 날리는, 호박 의상을 입은 말괄량이.<br/>
                     적에게 5 카운트 후 폭발하는 폭탄을 장치하거나 호박 수류탄을 던지는 등, 다양한 범위 공격으로 적을 농락한다.
@@ -77,7 +74,7 @@ export default function Cheeka() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

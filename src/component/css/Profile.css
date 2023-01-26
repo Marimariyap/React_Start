@@ -1,0 +1,54 @@
+/* Profile */
+
+.big_Box{
+  width: 500px;
+  background-size: 500px 1000px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  margin: auto;
+}
+
+.pro_Box img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  align-items: center;
+  left: auto;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pro_Box h1{
+  margin: 50px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  justify-content: center;
+  color: gray;
+}
+
+.pro_Box p{
+  margin: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  justify-content: center;
+  color: gray;
+  font-size: 30px;
+}
+
+.profile{
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  justify-content: center;
+}
+
+.im{
+  text-align: center;
+  color: gray;
+  font-size: 30px;
+  margin-top: 30px;
+  height: 500px;
+}

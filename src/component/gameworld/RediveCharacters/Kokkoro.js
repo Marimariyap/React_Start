@@ -1,17 +1,21 @@
 
 export default function Kokkoro() {
+    const newLocal = "img/RediveCharacter/Kokkoro_back.png";
+    const newLocal_1 = "img/RediveCharacter/KokkoroSummer_back.png";
+    const newLocal_2 = "img/RediveCharacter/KokkoroNewyear_back.png";
+    const newLocal_3 = "img/RediveCharacter/KokkoroPrincess_back.png";
+    const newLocal_4 = "img/RediveCharacter/KokkoroDress_back.png";
     return(
         <div className="container">
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/Kokkoro_back.png" alt="redive"/></div>
-            <h1>콧코로 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">            <h1>콧코로 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>아메스 아뮬렛 (정령의 계시 강화)</strong><br/>
-                    전용 장비를 획득한 이후에는 본인의 스펙도 상승하고 트라이 슬래시에 TP 상승이 붙어<br/>
-                    결과적으로 잦은 UB 발동을 통해 전체 딜량을 올리는데 기여 할 수 있다.
+                콧코로가 착용하고 있는 꽃장식. 신으로 추앙하는 위대한 존재의 가호가 담겨 있으며, 그 꽃에서 풍겨오는 부드러운 향기는, 싸울 용기를 부여해준다.
                 </p>
 
             <h2>소개</h2>
@@ -39,15 +43,15 @@ export default function Kokkoro() {
                         전투 시작 시 자신의 물리 공격력 (중) 증가, 자신의 마법 방어력 (소) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/KokkoroSummer_back.png" alt="redive"/></div>
-            <h1>콧코로(수영복) ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>콧코로(수영복) ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>양창 아쿠아 스쿼시 (네레이드 스피어 강화)</strong><br/>
-                    피격 TP의 이득을 보려는 경우, 전용장비를 최저선으로 유지
+                콧코로의 여름용 창. 청량감 넘치는 맑은 날끝은 보기에도 시원한 푸른 궤적을 그리며, 날뛰는 마물이나 무더위도 휘두르기 한방에 식혀준다.
                 </p>
 
             <h2>소개</h2>
@@ -76,16 +80,15 @@ export default function Kokkoro() {
                         전투 시작 시 자신의 마법 방어력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/KokkoroNewyear_back.png" alt="redive"/></div>
-            <h1>콧코로(새해) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>콧코로(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>신춘기행의 정령장 (스피릿 월 강화)</strong><br/>
-                물리 파티의 화력 보조 능력을 더 돋보이게 한다. 또한, 전용 장비에 붙은 방어력이 자체 생존력을 대폭 올려주고, 
-                TP 상승 능력치 덕분에 UB 순환 속도가 빨라져 파티의 생존력과 화력이 눈에 띄게 오른다.
+                나들이 옷을 입은 콧코로가 지닌 신기가 넘쳐흐르는 신성한 지팡이. 신춘을 축하하는 무녀의 춤이 주위의 동료에게도 활력을 나누어 주어 새로운 한 해의 행복을 약속한다.
                 </p>
 
             <h2>소개</h2>
@@ -114,11 +117,11 @@ export default function Kokkoro() {
                         전투 시작 시 자신의 물리 방어력 (대) 증가   
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/KokkoroPrincess_back.png" alt="redive"/></div>
-            <h1>콧코로(프린세스) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_3} alt="redive" className="character" />
+            <div className="well">            <h1>콧코로(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -148,15 +151,15 @@ export default function Kokkoro() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가   
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/KokkoroDress_back.png" alt="redive"/></div>
-            <h1>콧코로(의장복) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_4} alt="redive" className="character" />
+            <div className="well">            <h1>콧코로(의장복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>대정령의 의식검 (춘질풍 강화)</strong><br/>
-                    전용장비로 인해 조금 더 쓸만해지나 여전히 주력으로 쓰기는 어려운 편
+                엘프의 마을에 대대로 내려오는 정령과의 계약 의식 때 사용되는 단검. 정령과 마음이 통하여 가호를 받은 자는 질풍과 같은 검기를 사용할 수 있다고 한다.
                 </p>
 
             <h2>소개</h2>
@@ -185,7 +188,7 @@ export default function Kokkoro() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가   
                     </li>
                 </ul>
-
+</div>
 
                 
         </div>

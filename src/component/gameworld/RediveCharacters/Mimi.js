@@ -1,16 +1,16 @@
 
 export default function Mimi() {
+    const newLocal = "img/RediveCharacter/Mimi_back.png";
+    const newLocal_1 = "img/RediveCharacter/MimiGhost_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Mimi_back.png" alt="redive"/></div>
-
-          <h1>미미 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>미미 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>토끼씨 블레이드 (뿅뿅 어택 강화)</strong><br/>
-                    준수한 물리 공격력과 크리티컬에 더해 성장치는 없지만 명중이 3 추가되어 안정성이 보강
-                </p>
+                미미가 애용하는 검. 그 귀여움에 푹 빠진 미미가 휘두르면, 보기와는 정반대의 공격 범위로 적에게 아픈 경험을 하게 해준다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -38,17 +38,15 @@ export default function Mimi() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src="img/RediveCharacter/MimiGhost_back.png" alt="redive"/></div>
-            <h1>미미(할로윈) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>미미(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>빙글빙글 토끼씨 블레이드 (빙글빙글 어택 강화)</strong><br/>
-                    공격 대기시간(선딜레이)가 1.67초에서 1.33초로 감소하는 효과를 받았다.<br/>
-                    전용장비로 강화되는 스킬 중에서 딜레이 관련 조정을 받은 것은 할로윈 미미가 최초
-                </p>
+                할로윈을 위해 미미가 어머니와 함께 만든, 붕대를 빙글빙글 만 토끼씨 블레이드. 귀염성과 감촉이 양쪽 다 좋아졌다고 한다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -75,7 +73,7 @@ export default function Mimi() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

@@ -1,18 +1,17 @@
 
 export default function Nozomi() {
+    const newLocal = "img/RediveCharacter/Nozomi_back.png";
+    const newLocal_1 = "img/RediveCharacter/NozomiSummer_back.png";
+    const newLocal_2 = "img/RediveCharacter/NozomiChristmas_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Nozomi_back.png" alt="redive"/></div>
-
-          <h1>노조미 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>노조미 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>브릴리언트 마이크 (클레르 슬래시 강화)</strong><br/>
-                    전용장비, 고랭크, 5성 등의 까다로운 조건 없이는 초반에 버텨줄 만한 내구도가 형편없는 수준인데 비해<br/> 
-                    노조미는 정반대로 초반 포텐셜이 매우 높은 편인 탱커이기 때문에<br/>
-                    그야말로 나중에 키운다는 선택지란 없는 유닛.
-                </p>
+                노조미 전용 핸드마이크. 귀여운 리본의 중심엔 【카르미나】의 마크가 그려져있다. 이걸 들고 톱 아이돌을 꿈꾼다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -39,11 +38,11 @@ export default function Nozomi() {
                         전투 시작 시 자신의 물리 방어력 (중) 증가, 자신의 마법 방어력 (소) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src="img/RediveCharacter/NozomiSummer_back.png" alt="redive"/></div>
-            <h1>노조미(수영복) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>노조미(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -73,16 +72,16 @@ export default function Nozomi() {
                         전투 시작시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src="img/RediveCharacter/NozomiChristmas_back.png" alt="redive"/></div>
-            <h1>노조미(성탄절) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>노조미(성탄절) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>성령검 세인트호프 (크리스마스의 응원 강화)</strong><br/>
-                    전용장비를 얻고나서는 지공 상황의 방어덱에는 기용의 여지가 생겨나는 정도로 부상하게 되었다.
-                </p>
+                산타클로스의 후보가 된 노조미의 한손검.
+아이돌로서의 결의와 많은 사람의 꿈과 희망의 마음이 그 칼날에 눈부시게 빛나고 있다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -109,7 +108,7 @@ export default function Nozomi() {
                         전투 시작 시 자신의 물리 방어력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

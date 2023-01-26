@@ -5,10 +5,7 @@ const sour= "https://www.fmkorea.com/4773880784";
     return(
         <div className="container">
 
-            <div className="princess">
-                <h1>프린세스 커넥스 Re:Dive</h1>
-            </div>
-
+            <h1 className="prin">프린세스 커넥스 Re:Dive</h1>
             <div className= 'gameImg'>
                 <h2>2022년 가챠 미래시</h2>
                 <p><img src="img/Redive/Re_Dive_Get.jpg" alt="redive"/></p>

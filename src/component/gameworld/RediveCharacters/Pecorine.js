@@ -1,19 +1,20 @@
 
 export default function Pecorine() {
+    const newLocal = "img/RediveCharacter/Pecorine_back.png";
+    const newLocal_1 = "img/RediveCharacter/PecorineSummer_back.png";
+    const newLocal_2 = "img/RediveCharacter/PecorineNewyear_back.png";
+    const newLocal_3 = "img/RediveCharacter/PecorinePrincess_back.png";
     return(
         <div className="container">
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/Pecorine_back.png" alt="redive"/></div>
-            <h1>페코린느 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">            <h1>페코린느 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>프린세스 소드 (런치 타임 강화)</strong><br/>
-                    전용 장비 프린세스 소드를 달아줄 경우 깡 탱킹력이 비약적으로 상승한다.<br/>
-                    1스킬에 흡수 배리어가 추가되며 장비 자체에 회복량 스탯이 붙어서 PVE에서는<br/>
-                    거의 쓰러지는 경우가 없는 수준
-                </p>
+                페코린느가 사용하는 『왕가의 장비』의 진짜 모습. 원래부터 강력했지만 잠들어 있던 힘이 해방되어 더욱 큰 힘을 준다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -40,17 +41,15 @@ export default function Pecorine() {
                         전투 시작 시 자신의 최대 HP (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/PecorineSummer_back.png" alt="redive"/></div>
-            <h1>페코린느(수영복) ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>페코린느(수영복) ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>산검 비치 프린세스 (디저트 타임 강화)</strong><br/>
-                    전용장비로 1스킬 디저트 타임은 기존에도 특대치였던 물리공격력 버프량이 2배 넘게 상승<br/>
-                    물리 크리티컬 버프가 강화되었다.
-                </p>
+                페코린느가 애용하는 여름을 빛내는 상쾌한 양산검. 만발하는 미소와 화려하면서도 귀여운 검술이 합쳐지면, 해변의 시선을 독점하는 것은 틀림없다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -77,17 +76,15 @@ export default function Pecorine() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/PecorineNewyear_back.png" alt="redive"/></div>
-            <h1>페코린느(새해) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>페코린느(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>영춘미식의 나들이옷 (찹쌀떡 타임 강화)</strong><br/>
-                    스탯은 HP와 물리 공격력, 크리티컬, TP 상승이 붙어서<br/>
-                    체력 유지가 중요한 딜포터인 뉴페코에게 매우 잘 나온 편이다.
-                </p>
+                페코린느가 준비한 정월 맞이용 나들이옷. 왕가의 납품업자들이 구해준 명품 원단과 풍작을 기원하는 벼이삭 무늬가 있어, 공주의 위엄과 미식에 대한 경의가 넘쳐흐르게 한다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -119,17 +116,16 @@ export default function Pecorine() {
                         전투 시작 시 자신의 최대 HP (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/PecorinePrincess_back.png" alt="redive"/></div>
-            <h1>페코린느(프린세스) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_3} alt="redive" className="character" />
+            <div className="well">            <h1>페코린느(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>로얄 프린세스 드레스 (주먹밥 타임 강화)</strong><br/>
-                    전용장비 스텟으로 크리티컬을 엄청나게 받으며 기존의 약점을 어느정도 개선하긴 했지만<br/>
-                    그것만으로 주력픽이 되기는 어려운 상황.
-                </p>
+                프린세스 폼으로 체인지한 페코린느의 드레스.
+프린세스 나이트의 권능으로 왕가의 장비가 가진 특성이 강화되어, 압도적임 힘을 준다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -161,7 +157,7 @@ export default function Pecorine() {
                         전투 시작 시 자신의 최대 HP (대) 증가  
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

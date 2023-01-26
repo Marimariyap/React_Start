@@ -1,17 +1,16 @@
 
 export default function Sheppy() {
+    const newLocal = "img/RediveCharacter/Sheppy_back.png";
+    const newLocal_1 = "img/RediveCharacter/SheppyNewyear_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Sheppy_back.png" alt="redive"/></div>
-
-          <h1>셰피 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>셰피 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>빙룡검 (설답 강화)</strong><br/>
-                    전용장비를 받고도 입지에 변화는 없어서 고인 취급이었다<br/>
-                    기껏해야 서포터를 잘못 빌려서 억지로 물리덱을 써야하는 상황에나 쓰는 정도.
-                </p>
+                셰피가 자신의 검에 얼음칼을 휘감아 놓은 모습. 마력이 높아짐에 따라 위력을 더해, 셰피 외에는 잡기조차 힘든 냉기를 뿜어내고 있다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -48,11 +47,11 @@ export default function Sheppy() {
                         [빙룡의 인] 4개 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src="img/RediveCharacter/SheppyNewyear_back.png" alt="redive"/></div>
-            <h1>셰피(새해) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>셰피(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -84,7 +83,7 @@ export default function Sheppy() {
                         전투 시작 시 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

@@ -1,5 +1,7 @@
+import "./css/Countdown.css";
 import React, { useRef, useEffect } from "react";
 import useInterval from './hook/useInterval';
+
 
 export default function Countdown() {
   const yearRef = useRef(null);
@@ -19,7 +21,7 @@ export default function Countdown() {
             loadingRef.current.style.display = "none";
             countRef.current.style.display = "flex";
         }, 1000);
-  }, []);
+  }, [current]);
 
   useInterval(() => {
     const currentTime = new Date();
@@ -44,7 +46,7 @@ export default function Countdown() {
             </div>
 
             <div ref={countRef}>
-                <div className="year" id="year" ref={yearRef}></div>
+                <div className="year" id="year" ref={yearRef} />
             
             </div>
 
@@ -52,22 +54,22 @@ export default function Countdown() {
                 <h1>새해 카운트 다운</h1>
 
                 <div>
-                    <h2 id="day" className="time" ref={dayRef}></h2>
+                    <h2 id="day" className="time" ref={dayRef}>0</h2>
                     <div className="timetext">일</div>
                 </div>
 
                 <div>
-                    <h2 id="hou" className="time" ref={hourRef}></h2>
+                    <h2 id="hou" className="time" ref={hourRef}>0</h2>
                     <div className="timetext">시</div>
                 </div>
 
                 <div>
-                    <h2 id="min" className="time" ref={minuteRef}></h2>
+                    <h2 id="min" className="time" ref={minuteRef}>0</h2>
                     <div className="timetext">분</div>
                 </div>
 
                 <div>
-                    <h2 id="sec" className="time" ref={secondRef}></h2>
+                    <h2 id="sec" className="time" ref={secondRef}>0</h2>
                     <div className="time">초</div>
                 </div>
             </div>

@@ -4,8 +4,8 @@ export default function BlueArchive() {
     return(
         <div className="container">
             
+            <img src="img/Blue/Blue_back.jpg" alt="redive" className="imge" />
             <div className="blue">
-              <img src="img/Blue/Blue_back.jpg" alt="redive"/>
               <h1> 블루 아카이브</h1>
             </div>
 

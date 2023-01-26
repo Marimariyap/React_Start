@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import "./css/Login.css";
 
 const User= {
     email: 'react3215@naver.com',
@@ -16,7 +17,7 @@ export default function Login() {
     const handleEmail= (e)=> {
         setEmail(e.target.value);
         const regex=
-            /^(([^<>()\[\].,;:\s@"]+(\.[^<>()\[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
+            /^(([^<>()\].,;:\s@"]+(\.[^<>()\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
         if(regex.test(email)) {
             setEmailValid(true);
         } else {

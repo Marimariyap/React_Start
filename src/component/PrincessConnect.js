@@ -4,8 +4,8 @@ export default function PrincessConnect() {
     return(
         <div className="container">
 
+          <img src="img/Redive/Re_Dive_back.jpg" alt="redive" className="imge" />
           <div className="princess">
-            <img src="img/Redive/Re_Dive_back.jpg" alt="redive"/>
             <h1>프린세스 커넥스 Re:Dive</h1>
           </div>
 
@@ -16,7 +16,7 @@ export default function PrincessConnect() {
           </p>
 
           <h2>진행 상황</h2>
-          <p>NORMAL ★★★ 732/816<br/> HARD ★★★ 149/150<br/> VERY HARD ★★★ 35/36<br/></p>
+          <p>NORMAL ⭐⭐⭐ 732/816<br/> HARD ⭐⭐⭐ 149/150<br/> VERY HARD ⭐⭐⭐ 35/36<br/></p>
           <ul>
             <li>총 캐릭터 전투력 : 2,727,446</li>
             <li>배틀 아레나 순위 : 최고 랭크 1위, 현재 랭크 393위</li>

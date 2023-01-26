@@ -1,18 +1,20 @@
 
 export default function Kyaru() {
+    const newLocal = "img/RediveCharacter/Kyaru_back.png";
+    const newLocal_1 = "img/RediveCharacter/KyaruSummer_back.png";
+    const newLocal_2 = "img/RediveCharacter/KyaruNewyear_back.png";
+    const newLocal_3 = "img/RediveCharacter/KyaruPrincess_back.png";
     return(
         <div className="container">
 
 
 
-            <div className="princess"><img src="img/RediveCharacter/Kyaru_back.png" alt="redive"/></div>
-            <h1>캬루 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">            <h1>캬루 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>카오스 그리모어 (썬더 볼 강화)</strong><br/>
-                    전용장비를 달아주면 높은 스탯상승과 함께 1스킬에 강력한 범위 추가능력이 붙으면서 괜찮은<br/>
-                    2 ~ 2.5군 마법캐릭터로 거듭난다.
-                </p>
+                캬루가 가지고 다니는 마도서. 책에 깃든 흘러넘칠 듯한 마력을 제어하면 기입된 강력한 술식을 자유자재로 다룰 수 있다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -38,16 +40,15 @@ export default function Kyaru() {
                     전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/KyaruSummer_back.png" alt="redive"/></div>
-            <h1>캬루(수영복) ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>캬루(수영복) ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>고양이 튜브 서머 플로트 (워터 배럿 강화)</strong><br/>
-                    전용장비로 인해 마법 방어력 감소 스킬이 2개로 늘어나면서 물리 탱커를 쉽게 처리가능.
-                </p>
+                캬루가 여름을 즐기기 위해 몰래 준비한 튜브. 본인은 안정성이 좋아서 골랐다고 주장하지만 귀여움이 잔뜩 묻어난 디자인이라 진의가 의심스럽다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -74,18 +75,15 @@ export default function Kyaru() {
                         전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/KyaruNewyear_back.png" alt="redive"/></div>
-            <h1>캬루(새해) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>캬루(새해) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>하정 고양이귀 하고이타 (섀도우 배럿 강화)</strong><br/>
-                    전용장비는 범한테 날개를 달아주듯이 안 그래도 사기적인 냐루의 입지를 더욱 넓혀주게 됐는데<br/>
-                    1스킬이 범위 공격으로 상향됐기 때문에 멀티타겟에서도 단일타겟과 거의 다름없을 만큼<br/>
-                    온전한 화력을 보여줄 수 있게 됐다.
-                </p>
+                나들이옷 차림의 캬루가 가진 특별주문 하고이타. 새로운 한 해의 복을 바라는 마음이 무수한 하네를 만들어내어, 온갖 재앙을 물리친다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -113,11 +111,11 @@ export default function Kyaru() {
                         전투 시작 시 자신의 마법 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-            <div className="princess"><img src="img/RediveCharacter/KyaruPrincess_back.png" alt="redive"/></div>
-            <h1>캬루(프린세스) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_3} alt="redive" className="character" />
+            <div className="well">            <h1>캬루(프린세스) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -147,7 +145,7 @@ export default function Kyaru() {
                         전투 시작 시 자신의 마법 공격력 (대) 증가  
                     </li>
                 </ul>
-          
+          </div>
 
 
         </div>

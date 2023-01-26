@@ -1,11 +1,11 @@
 
 export default function Littlelyrical() {
+    const newLocal = "img/RediveCharacter/Littlelyrical_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Littlelyrical_back.png" alt="redive"/></div>
-
-          <h1>미소기&미미&쿄우카 ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>미소기&미미&쿄우카 ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -37,7 +37,7 @@ export default function Littlelyrical() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

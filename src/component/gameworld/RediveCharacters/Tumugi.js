@@ -1,17 +1,17 @@
 
 export default function Tumugi() {
+    const newLocal = "img/RediveCharacter/Tumugi_back.png";
+    const newLocal_1 = "img/RediveCharacter/TumugiSummer_back.png";
+    const newLocal_2 = "img/RediveCharacter/TumugiGhost_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Tumugi_back.png" alt="redive"/></div>
-
-          <h1>츠무기 ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>츠무기 ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>하이 쿠튀리에 벨트 (캡쳐 스트링 강화)</strong><br/>
-                    장비 자체의 스탯으로 좀 더 튼튼해지고<br/>
-                    공격력 버프의 효과로 UB를 통해 딜러들의 체력을 깎아먹는 능력이 더욱 강화되었다.
-                </p>
+                츠무기가 착용하고 있는, 실패를 격납한 특제 포터블 벨트. 실패에서 빠르게 뽑혀진 마법의 실이 적을 묶어올려, 눈 깜짝할 새에 의식을 빼앗는다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -39,11 +39,11 @@ export default function Tumugi() {
                         전투 시작 시 자신의 물리 방어력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src="img/RediveCharacter/TumugiSummer_back.png" alt="redive"/></div>
-            <h1>츠무기(수영복) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>츠무기(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -74,16 +74,15 @@ export default function Tumugi() {
                         전투 시작시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src="img/RediveCharacter/TumugiGhost_back.png" alt="redive"/></div>
-            <h1>츠무기(할로윈) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>츠무기(할로윈) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>할로윈 나이트 드레스 (테일러드 할로윈 강화)</strong><br/>
-                    성능에 큰 변화가 없어서 아쉽다는 평가가 다수.
-                </p>
+                흡혈귀를 상징화시킨 츠무기의 수제 드레스. 쿨과 큐트를 양립한 매콤달콤 코디를 통해 공격적인 자세를 어필한다                </p>
 
             <h2>소개</h2>
                 <p>
@@ -110,7 +109,7 @@ export default function Tumugi() {
                         전투 시작 시 자신의 물리 방어력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

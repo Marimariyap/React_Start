@@ -1,16 +1,17 @@
 
 export default function Shizuru() {
+    const newLocal = "img/RediveCharacter/Shizuru_back.png";
+    const newLocal_1 = "img/RediveCharacter/ShizuruSummer_back.png";
+    const newLocal_2 = "img/RediveCharacter/ShizuruValentine_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Shizuru_back.png" alt="redive"/></div>
-
-          <h1>시즈루 ⭐⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>시즈루 ⭐⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>세이크리드 블레이드 (세인트 힐 강화)</strong><br/>
-                    회복력증가와 물방, 힐스킬 강화가 붙는 괜찮은 성능.
-                </p>
+                시즈루가 애용하는 십자검. 약한 자를 구하길 바라는 고귀한 영혼이 검에 깃들었을 때 방어 술식이 발동하여 대상을 수호한다.                </p>
 
             <h2>소개</h2>
                 <p>
@@ -38,11 +39,11 @@ export default function Shizuru() {
                         전투 시작 시 자신의 물리 방어력 (중) 증가, 자신의 물리 공격력 (소) 증가
                     </li>
                 </ul>
-
+</div>
 
           
-                <div className="princess"><img src="img/RediveCharacter/ShizuruSummer_back.png" alt="redive"/></div>
-            <h1>시즈루(수영복) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_1} alt="redive" className="character" />
+            <div className="well">            <h1>시즈루(수영복) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -75,11 +76,11 @@ export default function Shizuru() {
                         전투 시작 시 자신의 물리 방어력 (대) 증가
                     </li>
                 </ul>
+</div>
 
 
-
-                <div className="princess"><img src="img/RediveCharacter/ShizuruValentine_back.png" alt="redive"/></div>
-            <h1>시즈루(발렌타인) ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal_2} alt="redive" className="character" />
+            <div className="well">            <h1>시즈루(발렌타인) ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>데코레이션 하트 (큐어니스 사인 강화)</strong><br/>
@@ -89,8 +90,7 @@ export default function Shizuru() {
             <h2>소개</h2>
                 <p>
                     <strong>【물리】</strong>중열에서 모두를 지키는 파티시에르 누나.<br/>
-                        여러 파라미터가 동시에 상승하는 필드 전개. 또한 효과 시간 중에는 스킬 효과가 대폭 강화한다.
-                </p>
+                    소중한 동생 군에게 맛있는 초코를 만들어주기 위해, 시즈루가 착용한 모자. 하트 장식에서 넘쳐나는 달콤한 향기가 동료에게 사랑과 안식을 준다.                </p>
 
             <h2>스킬</h2>
                 <ul>
@@ -112,7 +112,7 @@ export default function Shizuru() {
                         전투 시작 시 자신의 물리 공격력 (대) 증가
                     </li>
                 </ul>
-
+</div>
 
 
         </div>

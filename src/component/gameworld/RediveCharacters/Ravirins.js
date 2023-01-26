@@ -1,11 +1,11 @@
 
 export default function Ravirins() {
+    const newLocal = "img/RediveCharacter/Ravirins_back.png";
     return(
         <div className="container">
 
-          <div className="princess"><img src="img/RediveCharacter/Ravirins_back.png" alt="redive"/></div>
-
-          <h1>라비리스타 ⭐⭐⭐⭐⭐</h1>
+<img src={newLocal} alt="redive" className="character" />
+            <div className="well">          <h1>라비리스타 ⭐⭐⭐⭐⭐</h1>
 
             <h2>전용장비 ⚔️</h2>
                 <p><strong>업데이트 예정</strong><br/></p>
@@ -53,9 +53,8 @@ export default function Ravirins() {
                         </ol>
                         <p/>
                     </li>
-
                 </ul>
-
+</div>
 
 
         </div>
