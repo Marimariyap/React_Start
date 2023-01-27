@@ -42,7 +42,7 @@ export default function Navbar() {
             <li>
               <Link to="/Movieseat">영화 예매</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="my content\relaxer-app\index.html">명상 시간</Link>
             </li>
             <li>
@@ -67,7 +67,7 @@ export default function Navbar() {
               <Link to="my content\dom-array-methods\index.html">
                 개인재산 현황
               </Link>
-            </li>
+            </li> */}
           </ul>
         </ul>
       </nav>

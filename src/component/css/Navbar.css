@@ -52,10 +52,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
 nav ul ul {
   border-bottom: 2px solid rgba(200, 200, 200, 0.1);
   padding: 15px;
@@ -63,7 +59,7 @@ nav ul ul {
 }
 
 nav ul ul:first-of-type {
-  border-top: px solid rgba(200, 200, 200, 0.1);
+  border-top: 1px solid rgba(200, 200, 200, 0.1);
 }
 
 nav ul ul a {
@@ -71,10 +67,13 @@ nav ul ul a {
   text-decoration: none;
 }
 
-nav ul ul a:hover {
-  text-decoration: underline;
-}
-
 nav ul ul li {
   font-size: 10px;
+  transform: scale(1);
+  transition: all 1s;
+}
+
+nav ul ul li:hover {
+  transform: scale(1.1);
+  transition: all 1s;
 }
