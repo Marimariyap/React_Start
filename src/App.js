@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./component/Header";
 import Main from "./component/Main";
 import Profile from "./component/Profile";
+import Album from "./component/Album";
 
 // BlueArchive
 import BlueArchive from "./component/BlueArchive";
@@ -116,6 +117,7 @@ function App() {
           {/* main */}
           <Route path="/main" element={<Main />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/Album" element={<Album />} />
 
           {/* my content */}
           <Route path="/countdown" element={<Countdown />} />

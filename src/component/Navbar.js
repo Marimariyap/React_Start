@@ -15,6 +15,9 @@ export default function Navbar() {
           <li>
             <Link to="/main">홈</Link>
           </li>
+          <li>
+            <Link to="/Album">앨범</Link>
+          </li>
 
           <ul>
             게임 세상

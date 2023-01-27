@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 export default function PrincessConnect() {
   return (
     <div className="container">
-      <img src="img/Redive/Re_Dive_back.jpg" alt="redive" className="imge" />
       <div className="princess">
         <h1>프린세스 커넥스 Re:Dive</h1>
       </div>
+      <img src="img/Redive/Re_Dive_back.jpg" alt="redive" className="imge" />
 
       <h2>재화</h2>
       <p>
