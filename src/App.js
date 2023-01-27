@@ -1,23 +1,24 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // main
-import Header from './component/Header';
-import Main from './component/Main';
-import Profile from './component/Profile';
+import Header from "./component/Header";
+import Main from "./component/Main";
+import Profile from "./component/Profile";
+import Album from "./component/Album";
 
 // BlueArchive
-import BlueArchive from './component/BlueArchive';
-import Archive from './component/gameworld/Archive';
+import BlueArchive from "./component/BlueArchive";
+import Archive from "./component/gameworld/Archive";
 
 // my content
-import Countdown from './component/Countdown';
-import Exchangerate from './component/Exchangerate';
-import Movieseat from './component/Movieseat';
+import Countdown from "./component/Countdown";
+import Exchangerate from "./component/Exchangerate";
+import Movieseat from "./component/Movieseat";
 
 // PrincessConnect
-import PrincessConnect from './component/PrincessConnect';
-import Redive from './component/gameworld/Redive';
-import RediveCharacter from './component/gameworld/RediveCharacter';
+import PrincessConnect from "./component/PrincessConnect";
+import Redive from "./component/gameworld/Redive";
+import RediveCharacter from "./component/gameworld/RediveCharacter";
 
 // 미식전
 import Pecorine from "./component/gameworld/RediveCharacters/Pecorine";
@@ -107,7 +108,6 @@ import Ninon from "./component/gameworld/RediveCharacters/Ninon";
 import Cooca from "./component/gameworld/RediveCharacters/Cooca";
 import Ayumi from "./component/gameworld/RediveCharacters/Ayumi";
 
-
 function App() {
   return (
     <div className="App">
@@ -115,111 +115,114 @@ function App() {
         <Header />
         <Routes>
           {/* main */}
-          <Route path="/main" element={<Main/>} />
-          <Route path="/profile" element={<Profile/>} />
-          
+          <Route path="/main" element={<Main />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/Album" element={<Album />} />
+
           {/* my content */}
-          <Route path='/countdown' element={<Countdown/>} />
-          <Route path='/Exchangerate' element={<Exchangerate/>} />
-          <Route path='/Movieseat' element={<Movieseat/>} />
+          <Route path="/countdown" element={<Countdown />} />
+          <Route path="/Exchangerate" element={<Exchangerate />} />
+          <Route path="/Movieseat" element={<Movieseat />} />
 
           {/* BlueArchive */}
-          <Route path="/Blue Archive" element={<BlueArchive/>} />
-          <Route path='/archive' element={<Archive/>} />
-
+          <Route path="/Blue Archive" element={<BlueArchive />} />
+          <Route path="/archive" element={<Archive />} />
 
           {/* PrincessConnect */}
-          <Route path="/Princess Connect! Re:Dive" element={<PrincessConnect/>} />
-          <Route path='/redive character' element={<RediveCharacter/>} />
-          <Route path='/redive' element={<Redive/>} />
+          <Route
+            path="/Princess Connect! Re:Dive"
+            element={<PrincessConnect />}
+          />
+          <Route path="/redive character" element={<RediveCharacter />} />
+          <Route path="/redive" element={<Redive />} />
 
           {/* 미식전 */}
-          <Route path='/redive Pecorine' element={<Pecorine/>} />
-          <Route path='/redive Kokkoro' element={<Kokkoro/>} />
-          <Route path='/redive Kyaru' element={<Kyaru/>} />
-          <Route path='/redive Sheppy' element={<Sheppy/>} />
-          <Route path='/redive Hiyori' element={<Hiyori/>} />
+          <Route path="/redive Pecorine" element={<Pecorine />} />
+          <Route path="/redive Kokkoro" element={<Kokkoro />} />
+          <Route path="/redive Kyaru" element={<Kyaru />} />
+          <Route path="/redive Sheppy" element={<Sheppy />} />
+          <Route path="/redive Hiyori" element={<Hiyori />} />
 
           {/* 트윙클 위시 */}
-          <Route path='/redive Yui' element={<Yui/>} />
-          <Route path='/redive Ray' element={<Ray/>} />
+          <Route path="/redive Yui" element={<Yui />} />
+          <Route path="/redive Ray" element={<Ray />} />
 
           {/* 라비린스 */}
-          <Route path='/redive Ravirins' element={<Ravirins/>} />
-          <Route path='/redive Shizuru' element={<Shizuru/>} />
-          <Route path='/redive Rino' element={<Rino/>} />
+          <Route path="/redive Ravirins" element={<Ravirins />} />
+          <Route path="/redive Shizuru" element={<Shizuru />} />
+          <Route path="/redive Rino" element={<Rino />} />
 
           {/* 카르미나 */}
-          <Route path='/redive Nozomi' element={<Nozomi/>} />
-          <Route path='/redive Cheeka' element={<Cheeka/>} />
-          <Route path='/redive Tumugi' element={<Tumugi/>} />
+          <Route path="/redive Nozomi" element={<Nozomi />} />
+          <Route path="/redive Cheeka" element={<Cheeka />} />
+          <Route path="/redive Tumugi" element={<Tumugi />} />
 
           {/* 리틀 리리컬 */}
-          <Route path='/redive Mimi' element={<Mimi/>} />
-          <Route path='/redive Misogi' element={<Misogi/>} />
-          <Route path='/redive Kyowoca' element={<Kyowoca/>} />
-          <Route path='/redive Littlelyrical' element={<Littlelyrical/>} />
+          <Route path="/redive Mimi" element={<Mimi />} />
+          <Route path="/redive Misogi" element={<Misogi />} />
+          <Route path="/redive Kyowoca" element={<Kyowoca />} />
+          <Route path="/redive Littlelyrical" element={<Littlelyrical />} />
 
           {/* 포레스티에 */}
-          <Route path='/redive Misato' element={<Misato/>} />
-          <Route path='/redive Aoi' element={<Aoi/>} />
-          <Route path='/redive Hatsune' element={<Hatsune/>} />
+          <Route path="/redive Misato" element={<Misato />} />
+          <Route path="/redive Aoi" element={<Aoi />} />
+          <Route path="/redive Hatsune" element={<Hatsune />} />
 
           {/* 디아볼로스 */}
-          <Route path='/redive Iriya' element={<Iriya/>} />
-          <Route path='/redive Yori' element={<Yori/>} />
-          <Route path='/redive Acari' element={<Acari/>} />
-          <Route path='/redive Sinobu' element={<Sinobu/>} />
-          <Route path='/redive Miyako' element={<Miyako/>} />
+          <Route path="/redive Iriya" element={<Iriya />} />
+          <Route path="/redive Yori" element={<Yori />} />
+          <Route path="/redive Acari" element={<Acari />} />
+          <Route path="/redive Sinobu" element={<Sinobu />} />
+          <Route path="/redive Miyako" element={<Miyako />} />
 
           {/* 왕궁 기사단 */}
-          <Route path='/redive June' element={<June/>} />
-          <Route path='/redive Christina' element={<Christina/>} />
-          <Route path='/redive Tomo' element={<Tomo/>} />
-          <Route path='/redive Matsuri' element={<Matsuri/>} />
+          <Route path="/redive June" element={<June />} />
+          <Route path="/redive Christina" element={<Christina />} />
+          <Route path="/redive Tomo" element={<Tomo />} />
+          <Route path="/redive Matsuri" element={<Matsuri />} />
 
           {/* 사렌디아 구호원 */}
-          <Route path='/redive Saren' element={<Saren/>} />
-          <Route path='/redive Suzumei' element={<Suzumei/>} />
-          <Route path='/redive Ayane' element={<Ayane/>} />
-          <Route path='/redive Kurumi' element={<Kurumi/>} />
+          <Route path="/redive Saren" element={<Saren />} />
+          <Route path="/redive Suzumei" element={<Suzumei />} />
+          <Route path="/redive Ayane" element={<Ayane />} />
+          <Route path="/redive Kurumi" element={<Kurumi />} />
 
           {/* 카온 자경단 */}
-          <Route path='/redive Maho' element={<Maho/>} />
-          <Route path='/redive Macoto' element={<Macoto/>} />
-          <Route path='/redive Kaori' element={<Kaori/>} />
-          <Route path='/redive Casme' element={<Casme/>} />
+          <Route path="/redive Maho" element={<Maho />} />
+          <Route path="/redive Macoto" element={<Macoto />} />
+          <Route path="/redive Kaori" element={<Kaori />} />
+          <Route path="/redive Casme" element={<Casme />} />
 
           {/* 엘리자베스 파크 */}
-          <Route path='/redive Mahiru' element={<Mahiru/>} />
-          <Route path='/redive Rima' element={<Rima/>} />
-          <Route path='/redive Shiri' element={<Shiri/>} />
-          <Route path='/redive Rin' element={<Rin/>} />
+          <Route path="/redive Mahiru" element={<Mahiru />} />
+          <Route path="/redive Rima" element={<Rima />} />
+          <Route path="/redive Shiri" element={<Shiri />} />
+          <Route path="/redive Rin" element={<Rin />} />
 
           {/* 메르쿠리우스 재단 */}
-          <Route path='/redive Akino' element={<Akino/>} />
-          <Route path='/redive Mihuyu' element={<Mihuyu/>} />
-          <Route path='/redive Yukari' element={<Yukari/>} />
-          <Route path='/redive Tamaki' element={<Tamaki/>} />
+          <Route path="/redive Akino" element={<Akino />} />
+          <Route path="/redive Mihuyu" element={<Mihuyu />} />
+          <Route path="/redive Yukari" element={<Yukari />} />
+          <Route path="/redive Tamaki" element={<Tamaki />} />
 
           {/* 트와일라이트 캐러밴 */}
-          <Route path='/redive Luca' element={<Luca/>} />
-          <Route path='/redive Mitsuki' element={<Mitsuki/>} />
-          <Route path='/redive Erico' element={<Erico/>} />
-          <Route path='/redive Nanaca' element={<Nanaca/>} />
-          <Route path='/redive Anna' element={<Anna/>} />
+          <Route path="/redive Luca" element={<Luca />} />
+          <Route path="/redive Mitsuki" element={<Mitsuki />} />
+          <Route path="/redive Erico" element={<Erico />} />
+          <Route path="/redive Nanaca" element={<Nanaca />} />
+          <Route path="/redive Anna" element={<Anna />} />
 
           {/* 루센트 학원 */}
-          <Route path='/redive Io' element={<Io/>} />
-          <Route path='/redive Misaki' element={<Misaki/>} />
-          <Route path='/redive Suzuna' element={<Suzuna/>} />
+          <Route path="/redive Io" element={<Io />} />
+          <Route path="/redive Misaki" element={<Misaki />} />
+          <Route path="/redive Suzuna" element={<Suzuna />} />
 
           {/* 바이스플뤼겔 랜드솔 지부 */}
-          <Route path='/redive Monica' element={<Monica/>} />
-          <Route path='/redive Yuki' element={<Yuki/>} />
-          <Route path='/redive Ninon' element={<Ninon/>} />
-          <Route path='/redive Cooca' element={<Cooca/>} />
-          <Route path='/redive Ayumi' element={<Ayumi/>} />
+          <Route path="/redive Monica" element={<Monica />} />
+          <Route path="/redive Yuki" element={<Yuki />} />
+          <Route path="/redive Ninon" element={<Ninon />} />
+          <Route path="/redive Cooca" element={<Cooca />} />
+          <Route path="/redive Ayumi" element={<Ayumi />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,34 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 :root {
   --modal-duration: 1s;
-  --primary-color: #87CEFA;
-  --secondary-color: #9370DB;
+  --primary-color: #87cefa;
+  --secondary-color: #9370db;
   --success-color: #2ecc71;
   --error-color: #e74c3c;
   --primary_color: #5fbaa7;
 }
-
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   margin: 0;
-  transition: transform 0.3s;
 }
 
-
-
-
 /* Content */
-
-
-
 
 .container {
   margin: auto;
@@ -37,7 +29,7 @@ body {
   width: 1000px;
 }
 
-.cat img{
+.cat img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -55,21 +47,14 @@ h2 a:hover {
   text-decoration: underline;
 }
 
-
-
-
-
 /* Game */
 
-
-
-
-
 /* BlueArchive h1 */
-.container .blue {               
+.container .blue {
   color: skyblue;
   text-align: center;
-  margin-top: 500px;
+  margin-top: 30px;
+  font-size: 30px;
 }
 
 /* Archive h1 */
@@ -82,16 +67,14 @@ h2 a:hover {
   width: 1000px;
   height: 450px;
   margin: auto;
-  position: absolute;
-  left: 250px;
-  top: 350px;
 }
 
 /* PrincessConnect main*/
-.container .princess {            
+.container .princess {
   color: rgb(252, 179, 191);
   text-align: center;
-  margin-top: 500px;
+  margin-top: 30px;
+  font-size: 30px;
 }
 
 /* Redive h1 */

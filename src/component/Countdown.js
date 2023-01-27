@@ -1,7 +1,6 @@
 import "./css/Countdown.css";
 import React, { useRef, useEffect } from "react";
-import useInterval from './hook/useInterval';
-
+import useInterval from "./hook/useInterval";
 
 export default function Countdown() {
   const yearRef = useRef(null);
@@ -16,11 +15,11 @@ export default function Countdown() {
   const newYearTime = new Date(`January 01 ${current + 1} 00:00:00`);
 
   useEffect(() => {
-        yearRef.current.innerText = current + 1;
+    yearRef.current.innerText = current + 1;
     setTimeout(() => {
-            loadingRef.current.style.display = "none";
-            countRef.current.style.display = "flex";
-        }, 1000);
+      loadingRef.current.style.display = "none";
+      countRef.current.style.display = "flex";
+    }, 1000);
   }, [current]);
 
   useInterval(() => {
@@ -40,40 +39,47 @@ export default function Countdown() {
 
   return (
     <div id="count">
-        <div className="count">
-            <div id="load" ref={loadingRef}>
-                <img src="img/Main/spinner.gif" alt="Loading"/>
-            </div>
-
-            <div ref={countRef}>
-                <div className="year" id="year" ref={yearRef} />
-            
-            </div>
-
-            <div id="countdown" ref={countRef} style={{ display: "none" }}>
-                <h1>새해 카운트 다운</h1>
-
-                <div>
-                    <h2 id="day" className="time" ref={dayRef}>0</h2>
-                    <div className="timetext">일</div>
-                </div>
-
-                <div>
-                    <h2 id="hou" className="time" ref={hourRef}>0</h2>
-                    <div className="timetext">시</div>
-                </div>
-
-                <div>
-                    <h2 id="min" className="time" ref={minuteRef}>0</h2>
-                    <div className="timetext">분</div>
-                </div>
-
-                <div>
-                    <h2 id="sec" className="time" ref={secondRef}>0</h2>
-                    <div className="time">초</div>
-                </div>
-            </div>
+      <div className="count">
+        <div id="load" ref={loadingRef}>
+          <img src="img/Main/spinner.gif" alt="Loading" />
         </div>
+
+        <div ref={countRef}>
+          <div className="year" id="year" ref={yearRef} />
+        </div>
+
+        <div id="countdown" ref={countRef} style={{ display: "none" }}>
+          <h1>새해 카운트 다운</h1>
+
+          <div>
+            <h2 id="day" className="time" ref={dayRef}>
+              0
+            </h2>
+            <div className="timetext">일</div>
+          </div>
+
+          <div>
+            <h2 id="hou" className="time" ref={hourRef}>
+              0
+            </h2>
+            <div className="timetext">시</div>
+          </div>
+
+          <div>
+            <h2 id="min" className="time" ref={minuteRef}>
+              0
+            </h2>
+            <div className="timetext">분</div>
+          </div>
+
+          <div>
+            <h2 id="sec" className="time" ref={secondRef}>
+              0
+            </h2>
+            <div className="time">초</div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

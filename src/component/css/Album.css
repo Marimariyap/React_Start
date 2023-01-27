@@ -1,0 +1,32 @@
+.wrap {
+  padding-bottom: 6%;
+  column-count: 4;
+  column-gap: 1em;
+  background-attachment: fixed;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.figure {
+  display: inline-block;
+  text-align: center;
+}
+
+.figureimg {
+  width: 91%;
+  filter: blur(20px) grayscale(100);
+  transition: all 1s;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.figureimg:hover {
+  filter: none;
+  transition: all 1s;
+  transform: scale(1.1);
+}
